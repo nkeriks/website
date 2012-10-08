@@ -1,7 +1,7 @@
 {
     "papers": {
         "2012.06.breastsize": {
-            "category": ["genetics"],
+            "category": ["genetics", "flc"],
             "authors": "N. Eriksson, G. M. Benton, C. B. Do, A. K. Kiefer, J. L. Mountain, D. A. Hinds, U. Francke, and J. Y. Tung",
             "title": "Genetic variants associated with breast size also influence breast cancer risk",
             "citation": "<i>BMC Med Genet</i>, 13(1):53, Jun 2012",
@@ -143,7 +143,7 @@
             "links": [{"name": "pdf", "url":"papers/thesis.pdf"}]
         },
         "2012.09.cilantro": {
-            "category": ["genetics", "preprints"],
+            "category": ["genetics", "preprints", "flc"],
             "authors": "N. Eriksson, S. Wu, C. B. Do, A. K. Kiefer, J. Y. Tung, J. L.  Mountain, D. A. Hinds, and U. Francke",
             "title": "A genetic variant near olfactory receptor genes influences cilantro preference",
             "citation": "<i>ArXiv preprint</i>, September 2012.",
@@ -157,7 +157,7 @@
             "links": []
         },
         "2012.09.myopia,": {
-            "category": ["genetics", "preprints"],
+            "category": ["genetics", "preprints", "flc"],
             "authors": "A. K. Kiefer, J. Y. Tung, C. B. Do, D. A. Hinds, J. L. Mountain, U. Francke, and N. Eriksson",
             "title": "Genome-wide analysis points to roles for extracellular matrix remodeling, the visual cycle, and neuronal development in myopia",
             "citation": "<i>ArXiv preprint</i>, September 2012.",
@@ -178,7 +178,7 @@
             "links": []
         },
         "2012.04.hypothyroid": {
-            "category": ["genetics"],
+            "category": ["genetics", "flc"],
             "authors": "N. Eriksson, J. Y. Tung, A. K. Kiefer, D. A. Hinds, U. Francke, J. L. Mountain, and C. B. Do",
             "title": "Novel associations for hypothyroidism include known autoimmune risk loci",
             "citation": "<i>PLoS ONE</i>, 7(4):e34442, 2012.",
@@ -198,7 +198,7 @@
             "links": []
         },
         "2011.08.replication": {
-            "category": ["genetics"],
+            "category": ["genetics", "flc"],
             "authors": "J. Y. Tung, C. B. Do, D. A. Hinds, A. K. Kiefer, J. M. Macpherson, A. B.  Chowdry, U. Francke, B. T. Naughton, J. L. Mountain, A. Wojcicki, and N. Eriksson",
             "title": "Efficient replication of over 180 genetic associations with self-reported medical data",
             "citation": "<i>PLoS ONE</i>, 6(8):e23473, 2011.",
@@ -228,7 +228,7 @@
             "links": []
         },
         "2011.06.pd": {
-            "category": ["genetics"],
+            "category": ["genetics", "flc"],
             "authors": "C. B. Do, J. Y. Tung, E. Dorfman, A. K. Kiefer, E. M. Drabant, U. Francke, J. L. Mountain, S. M. Goldman, C. M. Tanner, J. W. Langston, A. Wojcicki, and N. Eriksson",
             "title": "Web-based genome-wide association study identifies two novel loci and a substantial genetic component for Parkinson's disease",
             "citation": "<i>PLoS Genet.</i>, 7(6):e1002141, Jun 2011.",
@@ -261,7 +261,7 @@
         },
 
         "2010ttam": {
-            "category": ["genetics"],
+            "category": ["genetics", "flc"],
             "authors": "N. Eriksson, J. M. Macpherson, J. Y. Tung, L. S. Hon, B. Naughton, S. Saxonov, L. Avey, A. Wojcicki, I. Pe'er, and J. Mountain",
             "title": "Web-based, participant-driven studies yield novel genetic associations for common traits",
             "citation": "<i>PLoS Genet., 6:e1000993</i>, Jun 2010.",
@@ -272,7 +272,7 @@
         },
 
         "2008pyrosequencing": {
-            "category": ["genetics", "sequencing"],
+            "category": ["genetics", "sequencing", "flc"],
             "authors": "N. Eriksson, L. Pachter, Y. Mitsuya, S. Y. Rhee, C. Wang, B. Gharizadeh, M. Ronaghi, R. W. Shafer, and N. Beerenwinkel",
             "title": "Viral population estimation using pyrosequencing",
             "citation": "<i>PLoS Comput. Biol.</i>, 4:e1000074, Apr 2008.",

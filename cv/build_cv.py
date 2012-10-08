@@ -10,6 +10,7 @@ def parse_json(jfile):
 
     peer_years =  defaultdict(list)
     other_years = defaultdict(list)
+    firstlast = 0
     for k in papers:
         year = k[:4]
         cat = j['papers'][k]["category"]
@@ -17,10 +18,13 @@ def parse_json(jfile):
             other_years[year].append(k)
         else:
             peer_years[year].append(k)
+            if "flc" in cat or 'math' in cat:
+                firstlast += 1
     j['years'] = dict(peer_years.items())
     j['notreviewedyears'] = dict(other_years.items())
     j['pr'] = sum(map(len,peer_years.values()))
     j['npr'] = sum(map(len,other_years.values()))
+    j['firstlast'] = firstlast
     return j
 
     
