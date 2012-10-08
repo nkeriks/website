@@ -1,0 +1,334 @@
+%		  12 December 2011
+%
+% To anyone downloading this file:
+% 
+% If you got this file from someone other than Ezra Miller, then there
+% might be a better version available directly from Ezra's homepage;
+% just type Ezra Miller into Google and you should be able to find it.
+% 
+% You may use this file freely as a template for your own CV, or for
+% any other purpose, but please leave these lines and those above them
+% in the file.
+% 
+% You might have to fiddle with the number of millimeters in the
+% \voffset commands to get your CV to print centered vertically on the
+% page.  You should also check page breaks and vertical spacing around
+% \marginlabel commands.
+\documentclass[11pt]{article}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{revnum}
+
+\voffset=-10mm %to print: dvips *.dvi; ps2pdf *.ps
+\oddsidemargin=-20pt
+\headheight=18pt     \topmargin=0pt
+%\textheight=658pt   \textwidth=495pt %return to this if possible
+%\textheight=658pt   \textwidth=499.5pt
+\textheight=659pt   \textwidth=499.5pt
+\parskip=.3pt plus 1pt
+
+\newcommand{\excise}[1]{}
+\newcommand{\comment}[1]{$\star${\sf\textbf{#1}}$\star$}
+
+\def\myname{\Large \bfseries N\normalsize ICHOLAS \Large E\normalsize RIKSSON}
+\def\at{\raisebox{-1.5pt}{\includegraphics{at-11pt}}}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\cfoot{}		     % no footers (in pagestyle fancy) 
+\lhead{{\noindent\myname}}   % running left heading
+\rhead{{\Large\bfseries C\normalsize URRICULUM \Large V\normalsize ITAE
+	\quad\Large\thepage}}% running right heading
+
+\newcommand{\marginlabel}[1]{\bigskip\noindent{\textsf{\textbf{#1}}}\nopagebreak}
+			% bold sans-serif label for margin labels.
+
+% For lists with `year1--year2': jobs, honors, activities, and teaching
+\newenvironment{jobs}
+% 	{\vspace{-2ex}\leftmargini=24.1mm% to get dates even with margin
+	{\vspace{-2ex}\leftmargini=30mm%
+	 \begin{list}%
+		{}
+		{\setlength\labelwidth{22mm}\itemsep=-1.5mm}}
+	{\end{list}\vspace{-2ex}}
+
+\def\dates#1{\item[#1\hfill]}
+
+% For papers, listed reverse-chronologically but numbered chronologically;
+% \paper declares the beginning of each entry except for those with
+% \paperyear which is for the first paper in each year
+\newenvironment{papers}[1][1]
+	{\vspace{-2ex}\leftmargini=16.1mm%
+% 	 \begin{enumerate}\itemsep=-.5mm}
+% 	{\end{enumerate}\vspace{-2ex}}
+	 \begin{revnumerate}[{#1}]\itemsep=-.5mm}
+	{\end{revnumerate}\vspace{-2ex}}
+\def\paper{\item}
+%def\paperyear#1{\item[\stepcounter{enumi}%
+\def\paperyear#1{\item[\addtocounter{enumi}{-1}%
+		 {\makebox[0mm][r]{\makebox[14mm]{#1\hfill\arabic{enumi}.}}}]}
+\newcounter{separated}%to save \enumi between types of papers; see \setcounter below
+
+% For projects in progress
+\newenvironment{progress}
+	{\vspace{-2ex}\leftmargini=16.1mm%
+	 \begin{itemize}\itemsep=-.5mm}
+	{\end{itemize}\vspace{-2ex}}
+
+% For the list of seminars; \talkyear is for the first line of each year
+\newenvironment{talks}
+	{\vspace{-2ex}\leftmargini=20mm
+	 \begin{list}
+		{}
+		{\setlength\labelwidth{8.5mm}}\itemsep=-1.5mm}
+	{\end{list}\vspace{-2ex}}
+
+\def\talk#1{\item[#1\hfill]}
+\def\talkyear#1#2{\item[{\makebox[0mm][r]{\makebox[9.5mm][l]{#1}}}{#2}\hfill]}
+
+% For the list of nonscientific academic awards
+\newenvironment{awards}
+% 	{\vspace{-2ex}\leftmargini=24.1mm% to get dates even with margin
+	{\vspace{-2ex}\leftmargini=18mm%
+	 \begin{list}%
+		{}
+		{\setlength\labelwidth{10mm}\itemsep=-1.5mm}}
+	{\end{list}\vspace{-2ex}}
+
+\def\award#1{\item[#1\hfill]}
+
+\def\thick{}%\textbf}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\thispagestyle{empty}
+
+\mbox{}
+\vspace{-9ex}
+
+\centerline{\Large \bf Curriculum Vitae}
+\medskip
+\centerline{\myname}
+
+\begin{tabbing}
+\mbox{}\quad\= Office Address: \ \= Mathematics Department\qquad\qquad\qquad\quad
+            \= Email Address: \ \= \kill
+\>Office Address: \> 23andMe                   \> Phone:         \> (510) 798--5124\\
+\>                \> 1390 Shorebird Way        \> Email Address: \> \url{nick.eriksson@gmail.com}\\
+\>                \>Mountain View, CA\ \ 94043 \> Homepage:      \>\url{http://www.stat.uchicago.edu/~eriksson}\\
+\> Date of Birth: \> 1978 (Montana, USA)       \> Date of CV:    \> October 2012
+\end{tabbing}
+
+
+\vspace{-5.5mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\marginlabel{Education/Employment}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{jobs}
+\dates{2009$\;$--$\;$} Principal Scientist, Statistical Genetics, 23andMe, Inc.
+
+\dates{2008$\;$--$\;$2009} Scientist, Statistical Genetics, 23andMe, Inc.
+
+\dates{2007$\;$--$\;$2008} Visiting Assistant Professor \textbf{Department of Statistics, University of Chicago}, Chicago, IL
+
+\dates{2006$\;$--$\;$2007} NSF Postdoctoral Research Fellow, \textbf{Department of Statistics, Stanford University}, Stanford, CA
+
+\item {2006$\;$--$\;$} Postdoctoral Fellow, \textbf{Mathematical Sciences Research Institute}, Berkeley, CA
+
+\dates{2006\quad Ph.D.} \thick{University of California, Berkeley},
+	Mathematics (advisor: Bernd Sturmfels)
+
+\dates{2001\quad B.S.}	MIT, Cambridge, MA, Mathematics
+
+\end{jobs}
+
+\vspace{-3mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\marginlabel{Scientific/Academic honors and grants}%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{jobs}
+\dates{2012$\;$--$\;$2013} Principal Investigator, NIH Grant ??? (\$415,804)
+
+\dates{2012$\;$--$\;$2013} Principal Investigator, MJFF Grant ??? (\$415,804)
+
+\dates{2006$\;$--$\;$2008} National Science Foundation Postdoctoral Research Fellowship in the Mathematical Sciences
+
+\dates{2006} Bernard Friedman Prize, UC Berkeley, top thesis in applied mathematics
+
+\dates{2001$\;$--$\;$2004} National Defense Science and Engineering Graduate Fellowship
+
+\dates{2001} National Science Foundation Graduate Research Fellowship (Declined)
+
+\dates{1997} Third place, Westinghouse Science Talent Search
+
+% for no dates: \dates{------} Sigma Xi \qquad\quad\, (nationwide honor awarded by Brown University chapter)
+\end{jobs}
+
+\vspace{-1.5ex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\marginlabel{Research interests}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Combinatorial aspects of geometry and algebra
+Algebra, geometry, combinatorics, algorithms, applications
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\marginlabel{Publications}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace{-1ex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\marginlabel{\sf Peer-reviewed articles}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{papers}[\VAR{pr}]%\setcounter{enumi}{\value{separated}}%restores \enumi
+
+\BLOCK{for year, papernames in years|dictsort|sort(reverse=True)} 
+    \BLOCK{for pname in papernames}
+        %- if loop.first
+        \paperyear{\VAR{year}}
+        %- else
+        \paper
+        %- endif
+        \VAR{papers[pname].title}.
+        %- if "math" in papers[pname].category 
+        \VAR{papers[pname].authors}.
+        %- else 
+        \VAR{papers[pname].authors|boldnke}.
+        %- endif
+        \VAR{papers[pname].citation|escapetex|htmltolatex}
+
+    \BLOCK{endfor}
+\BLOCK{endfor}
+
+\end{papers}
+
+\vspace{-2.25ex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\marginlabel{\sf Books and expository articles}%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{papers}[\VAR{npr}]% be sure to set so that the last paper is number 1.
+
+\BLOCK{for year, papernames in notreviewedyears|dictsort|sort(reverse=True)} 
+    \BLOCK{for pname in papernames}
+        %- if loop.first
+        \paperyear{\VAR{year}}
+        %- else
+        \paper
+        %- endif
+        \VAR{papers[pname].title}.
+        %- if "math" in papers[pname].category 
+        \VAR{papers[pname].authors}.
+        %- else 
+        \VAR{papers[pname].authors|boldnke}.
+        %- endif
+        \VAR{papers[pname].citation|escapetex|htmltolatex}
+    \BLOCK{endfor}
+\BLOCK{endfor}
+\end{papers}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\marginlabel{Lecture series, lectures, and presentations (157 total)}%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{talks}
+
+\talkyear{2011}{Aug.}% #48
+Something: something
+
+\end{talks}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%marginlabel{Professional service}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\vspace{-1ex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\marginlabel{Referee and review activities}%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{tabular}[h]{@{}l@{\quad}l@{}}%16
+\begin{tabular}[t]{@{}l@{}}%8
+Acta Mathematica\\
+Advances in Mathematics\\
+Algebra \& Number Theory\\
+Algorithms\\
+American Journal of Mathematics\\
+American Mathematics Monthly\\
+AMS Graduate Texts in Mathematics\qquad\qquad\qquad\qquad\\
+Annals of Combinatorics\\
+\end{tabular}
+&
+\begin{tabular}[t]{@{}l@{}}%8
+% would be \#23: Appl. Alg. in Engin.\ Commun.\ and Comput.\\
+Asian Journal of Mathematics\\
+Canadian Mathematical Bulletin\\
+Collectanea Mathematica\\
+Compositio Mathematica\\
+Contemporary Mathematics\\
+Contributions to Discrete Mathematics\\
+Crelle's Journal\\
+Discrete and Computational Geometry\\
+\end{tabular}
+\end{tabular}
+
+
+
+\vspace{-1ex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\marginlabel{Teaching activities}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\vspace{-1ex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\marginlabel{\sf Courses taught at Duke}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{jobs}
+\dates{2010\ \,\,Fall} Algebraic geometry (Math 273)
+\dates{2010\ \,\,Spring} Commutative algebra (Math 252)
+\dates{2009\ \,\,Fall} Rings, modules, and Galois theory (Math 251)
+\dates{2009\ \,\,Spring} Current research in algebra: combinatorial
+	commutative algebra (Math 358)
+\end{jobs}
+
+\vspace{-1.5ex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\marginlabel{\sf Recitations led at UC Berkeley (as graduate student instructor)}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{jobs}
+%dates{1995\,--\,1996} 
+%	Linear algebra, Calculus II, Calculus III
+\dates{1996\ \,\,Fall} Linear algebra (Math 53W: workshop section)
+
+\dates{1996\ \,\,Spring} Multivariable calculus (Math 35)
+
+\dates{1995\ \,\,Fall} Calculus of one variable (Math 1B)
+%	second of two-semester course
+\end{jobs}
+
+\end{document}
