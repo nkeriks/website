@@ -1,0 +1,277 @@
+/**** the left nav bar ****/
+body>#left {
+	width: 6em;
+}
+
+#left {
+	position: absolute;
+	top: 7em;
+	left: 2em;
+	margin: 0em 0 0 0;
+	/*padding: 1em .5em 1em .5em; */
+	border: 1px solid #ccc; 
+}
+
+#Menu a{
+	/*
+	line-height:2em;
+	margin: -.5em;
+	background-color: #ccc;
+	padding: .1em;
+	padding-left: 1em;
+	*/
+	border: 1px solid black;
+	font-weight: bold;
+	padding: .4em .8em .4em .5em;
+	margin: -1px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	color:#000;
+}
+
+#Menu a:hover {
+	background-color: #CD5C5C;
+	color:#fff;
+}
+
+
+/* main page */
+
+.clearfloats {
+    float: none;
+    clear: both;
+    height: 1px;
+    font-size: 1px;
+}
+
+.hidden {
+    display: none;
+}
+
+#thumbnail{
+    float:left;
+    margin-right:10px;
+}
+
+.thumbnail {
+    width: 70px;
+    vertical-align: top;
+}
+
+
+
+
+.box{
+    border: 1px solid #C6C8CA;
+    padding: 12px 12px;
+    border-radius: 4px; -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-color: #EAEFF6;
+    line-height: 18px;
+    text-decoration: bold;
+    min-height:80px;
+    height:auto !important;
+    height:80px; 
+}                        
+
+
+/*
+div#topleft {
+    border: 1px solid #000;
+    position: absolute;
+    background-color: #ccc;
+    width:45em;
+}
+
+*/
+
+
+body {
+	margin:0;
+	padding:0;
+	font-family:verdana, arial, helvetica, sans-serif;
+	background-color:white;
+	font-size: 10pt;
+}
+
+h1 {
+	margin:0px 0px 15px 0px;
+	padding:0px;
+	font-size:28px;
+	font-weight:900;
+	color:#ccc;
+}
+
+p {
+	/*font:11px/20px verdana, arial, helvetica, sans-serif; */
+	margin:0 0 1em 0;
+	padding:0;
+}
+
+
+#Content dt {
+	font-weight:bold;
+	font-size:120%;
+	border-bottom: 1px solid #ccc;
+	margin-top:2em;
+}
+
+#Content dd {
+	margin-left: 10px;
+}
+
+#Content>p {margin:0px;}
+/*#Content>p+p {text-indent:30px;}*/
+
+a {
+	 /* font-weight:bold; 
+	color:#09c;
+	font-size:90%; */
+	text-decoration:none;
+}
+a img {
+	border:none;
+	text-decoration: none;
+} 
+
+/*
+a:visited {color:#1E90FF;}
+a:visited {color:#07a;}
+a:link {color:#09c;}
+*/
+a:link {color:	#1E90FF;}
+a:visited {color:#6A5ACD;}
+a:hover {background-color:#eee;}
+
+#Header {
+	margin:1em 0 1em 0;
+	padding:1em 0 .1em 2em;
+	border-style:solid;
+	border-color:#ccc;
+	border-width:5px 0px; /* top and bottom,  left and right */
+	line-height:.5em;
+	background-color:#CD5C5C;/*#900;  stanford! */
+	color:#fff;
+	font-weight: bold;
+	height:1em;
+	font-size:130%;
+}
+
+#Header a {
+	color: #fff; 
+	background-color:#CD5C5C;
+	padding: 0 0 0 2em;
+}
+
+#Content {
+	margin:0 3em 3em 10em;
+	padding:1em;
+}
+
+
+#Footer {
+	color:#fff;
+	background-color: #B22222;
+	border: 2px solid #999;
+}
+
+/*********************** list of papers ****************/
+
+ul.papers {
+	padding-bottom: 10px;
+	margin: 0px;
+	/*	font-size: 11px;
+	padding-left: 10px;*/
+	/*	border-left: 1px solid black;*/
+	/*	text-align: justify;*/
+	list-style-type: none;
+}
+
+ul.papers li a {
+	/*	padding: 0.1em 0.5em;*/
+	/*	padding-left: 100px;*/
+}
+
+ul.navlist{
+	font-size: 11px;
+	border-left: none;
+	padding: 2px;
+	margin: 0px;
+	list-style-type: none; /*removes bullets*/
+	width: 100%;
+}
+
+ul.navlist li { 
+	display: inline; /*on one line*/
+}
+
+ul.navlist li a {
+	width: 2em;
+	/*
+	border: 1px solid #000;
+	*/
+	border-right: 1px solid #fff;
+	/*font-weight:bold;*/
+	/*background-color: #036;  */
+	/*background-color: CornflowerBlue ; */
+	/*background-color: 	#4682B4;*/
+	background-color: 	#ccc;
+	/*color: #fff;*/
+	padding: 0.1em 0.5em;
+	text-decoration: none;
+}
+
+
+ul.navlist li a:hover {
+	background-color: #1E90FF;
+	color: #fff;
+}
+
+div.comments {
+	/*font-size: 11px; */
+}
+
+div.title {
+	font-size: 120%;
+	margin-top: 1em;
+}
+
+.abstract{
+/*
+background-image:url(back.gif);
+color: #000000;
+padding-left:200px;
+margin-left:25px;
+display:block;
+height: 200px;
+margin-top:20px;
+padding-top:2px;
+padding-bottom: 2px;
+text-decoration: bold;
+background-color:#fff;
+ */
+}
+
+a.abstract:hover {
+	background-color:#900;
+}
+
+#blank { 
+	border: 1px solid #ccc; 
+	padding: 1em; 
+	margin: 1em 4em 0em 1em; 
+}
+.hide{
+display: none;
+}
+.show{
+display: block;
+}
+
+
+	/*	font:  normal 9pt georgia; */
+	/*	font: italic normal 12pt georgia; */
+	/*color:#333; gray*/
+	/*background-color:#eef; the nice light blue */
+	/*background-color: #900; */

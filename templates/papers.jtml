@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>HIII</title>
+<link rel="stylesheet" href="css/reset.css" />
+<link rel="stylesheet" href="css/text.css" />
+<link rel="stylesheet" href="css/960.css" />
+<link rel="stylesheet" href="css/site.css" />
+<!--<link href='https://fonts.googleapis.com/css?family=Open+Sans|Lako|PT+Sans' rel='stylesheet' type='text/css'>-->
+<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>   
+</head>
+<body>
+<div class="container_12">
+  <div class="grid_3">
+    <h1>Nicholas Eriksson</h1>
+  </div>
+
+  <div class="grid_9 header">
+    <a href="index.html">Home</a>
+    <a href="papers.html" title="">Papers</a>
+    <a href="news.html" title="">News</a>
+    <a href="blog.html" title="">Blog</a>
+    <a href="eriksson-cv.html" title="">Vitae</a>
+  </div>
+
+  <div class="clear"></div>
+
+    {{papers|length}} papers total.
+
+    {% for papername, paper in papers|dictsort|sort(reverse=True) %}
+      <div class="grid_11 suffix_1 box">
+        <!--<h5>{{ loop.index }}</h5>-->
+        {% include "single_paper.inc" %}
+      </div>
+    {% endfor %}
+
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#thumbnail").click(function(){
+            $("#toggle_details").click();
+        });
+            
+        $("#toggle_details").click(function(){
+            $("#details").slideToggle()
+        }).toggle(
+            function(){
+                $(this).html("Hide Details &laquo;")
+            },
+            function(){
+                $(this).html("Read more &raquo;")
+        }); 
+    });
+</script>
+</body>
+</html>
