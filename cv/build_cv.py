@@ -49,7 +49,7 @@ def escape_tex(value):
     return newval
 
 def main():
-    context = parse_json('../papers.json')
+    context = parse_json('../templates/papers.json')
     latex_jinja_env = jinja2.Environment(loader=jinja2.FileSystemLoader(['.']), 
         block_start_string = '\BLOCK{',
         block_end_string = '}',
