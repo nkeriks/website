@@ -1,7 +1,7 @@
 {
     "papers": {
         "2012.06.breastsize": {
-            "category": ["genetics", "23andMe"],
+            "category": ["genetics"],
             "authors": "N. Eriksson, G. M. Benton, C. B. Do, A. K. Kiefer, J. L. Mountain, D. A. Hinds, U. Francke, and J. Y. Tung",
             "title": "Genetic variants associated with breast size also influence breast cancer risk",
             "citation": "<i>BMC Med Genet</i>, 13(1):53, Jun 2012",
@@ -40,7 +40,7 @@
             "press": []
         },
         "2005phyloAG": {
-            "category": ["math"],
+            "category": ["math", "book"],
             "authors": "N. Eriksson,  K. Ranestad, B. Sturmfels, and S. Sullivant",
             "title": "Phylogenetic algebraic geometry",
             "citation": "In C. Ciliberto, A. Geramita, B. Harbourne, R-M. Roig, and K. Ranestad, editors, <i>Projective varieties with unexpected properties</i>, pages 237--255. Walter de Gruyter GmbH & Co. KG, Berlin, 2005.",
@@ -50,7 +50,7 @@
             "press": []
         },
         "2005ultra": {
-            "category": ["math"],
+            "category": ["math", "book"],
             "authors": "M. Drton, N. Eriksson, and G. Leung",
             "title":  "Ultra-Conserved Elements in Vertebrate and Fly Genomes",
             "citation": "In L. Pachter and B. Sturmfels, editors, <i>Algebraic Statistics for Computational Biology</i>, chapter 22, pages 387--402. Cambridge University Press, Cambridge, UK, 2005.",
@@ -59,7 +59,7 @@
             "press": []
         },
         "2005svd": {
-            "category": ["math"],
+            "category": ["math", "book"],
             "authors": "N. Eriksson",
             "title": "Tree Construction using Singular Value Decompsition",
             "citation": "In L. Pachter and B. Sturmfels, editors, <i>Algebraic Statistics for Computational Biology</i>, chapter 19, pages 347--358. Cambridge University Press, Cambridge, UK, 2005.",
@@ -125,7 +125,7 @@
             "links": []
         },
         "2009invariants": {
-            "category": ["math"],
+            "category": ["math", "book"],
             "authors": "N. Eriksson",
             "title": "Using invariants for phylogenetic tree construction",
             "citation": "In <i>Emerging Applications of Algebraic Geometry</i>, pages 89--108. Springer, New York, 2009.",
@@ -134,7 +134,7 @@
             "links": []
         },
         "2006thesis": {
-            "category": ["math"],
+            "category": ["math", "book"],
             "authors": "N. Eriksson",
             "title": "Algebraic combinatorics for computational biology",
             "citation": "PhD thesis, University of California, Berkeley, 2006.",
@@ -239,6 +239,7 @@
         },
 
         "2011.04.alignment": {
+            "category": ["genetics"],
             "authors": "A. S. Malaspinas, N. Eriksson, and P. Huggins",
             "title": "Parametric analysis of alignment and phylogenetic uncertainty",
             "citation": "<i>Bull. Math. Biol.</i>, 73:795--810, Apr 2011.",
@@ -249,6 +250,7 @@
         },
     
         "2011.04.shorah": {
+            "category": ["genetics", "sequencing"],
             "authors": "O. Zagordi, A. Bhattacharya, N. Eriksson, and N. Beerenwinkel",
             "title": "ShoRAH: estimating the genetic diversity of a mixed sample from next-generation sequencing data",
             "citation": "<i>BMC Bioinformatics</i>, 12:119, Apr 2011.",
@@ -270,6 +272,7 @@
         },
 
         "2008pyrosequencing": {
+            "category": ["genetics", "sequencing"],
             "authors": "N. Eriksson, L. Pachter, Y. Mitsuya, S. Y. Rhee, C. Wang, B. Gharizadeh, M. Ronaghi, R. W. Shafer, and N. Beerenwinkel",
             "title": "Viral population estimation using pyrosequencing",
             "citation": "<i>PLoS Comput. Biol.</i>, 4:e1000074, Apr 2008.",
@@ -280,6 +283,7 @@
         },
 
         "2007metric": {
+            "category": ["math", "book"],
             "authors": "N. Eriksson and Y. Yao",
             "title": "Metric learning for phylogenetic invariants",
             "citation": "<i>ArXiv preprint</i>, 2007.",
