@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>HIII</title>
+<title>Nicholas Eriksson: Papers</title>
 <link rel="stylesheet" href="css/reset.css" />
 <link rel="stylesheet" href="css/text.css" />
 <link rel="stylesheet" href="css/960.css" />
@@ -14,19 +14,7 @@
 </head>
 <body>
 <div class="container_12">
-  <div class="grid_3">
-    <h1>Nicholas Eriksson</h1>
-  </div>
-
-  <div class="grid_9 header">
-    <a href="index.html">Home</a>
-    <a href="papers.html" title="">Papers</a>
-    <a href="news.html" title="">News</a>
-    <a href="blog.html" title="">Blog</a>
-    <a href="eriksson-cv.html" title="">Vitae</a>
-  </div>
-
-  <div class="clear"></div>
+  {% include "header.inc" %}
 
     {{papers|length}} papers total.
 
