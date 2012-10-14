@@ -1,5 +1,18 @@
 {
     "papers": {
+        "2012.10.famhist": {
+            "category": ["genetics", "flc"],
+            "authors": "C. B. Do, D. A. Hinds, U. Francke, N. Eriksson",
+            "title": "Comparison of Family History and SNPs for Predicting Risk of Complex Disease", 
+            "citation": "<i>PLoS Genet.</i>, 8(10): e1002973, October 2012.",
+            "abstract": "The clinical utility of family history and genetic tests is generally well understood for simple Mendelian disorders and rare subforms of complex diseases that are directly attributable to highly penetrant genetic variants. However, little is presently known regarding the performance of these methods in situations where disease susceptibility depends on the cumulative contribution of multiple genetic factors of moderate or low penetrance. Using quantitative genetic theory, we develop a model for studying the predictive ability of family history and single nucleotide polymorphism (SNP)-based methods for assessing risk of polygenic disorders. We show that family history is most useful for highly common, heritable conditions (e.g., coronary artery disease), where it explains roughly 20%-30% of disease heritability, on par with the most successful SNP models based on associations discovered to date. In contrast, we find that for diseases of moderate or low frequency (e.g., Crohn disease) family history accounts for less than 4% of disease heritability, substantially lagging behind SNPs in almost all cases. These results indicate that, for a broad range of diseases, already identified SNP associations may be better predictors of risk than their family history-based counterparts, despite the large fraction of missing heritability that remains to be explained. Our model illustrates the difficulty of using either family history or SNPs for standalone disease prediction. On the other hand, we show that, unlike family history, SNP-based tests can reveal extreme likelihood ratios for a relatively large percentage of individuals, thus providing potentially valuable adjunctive evidence in a differential diagnosis.",
+            "summary": "We develop models based on quantitative genetic theory to analyze and compare family history and SNP-based models.",
+            "thumbnail": "famhist.png",
+            "links": [
+                {"name": "PLoS", "url": "http://www.plosgenetics.org/article/info%3Adoi%2F10.1371%2Fjournal.pgen.1002973"}
+            ],
+            "press": []
+        },
         "2012.06.breastsize": {
             "category": ["genetics", "flc"],
             "authors": "N. Eriksson, G. M. Benton, C. B. Do, A. K. Kiefer, J. L. Mountain, D. A. Hinds, U. Francke, and J. Y. Tung",
@@ -10,7 +23,7 @@
             "thumbnail": "bsize.png",
             "pubmed": "22747683",
             "links": [
-                {"name":"BMC", "url": "http://something"}
+                {"name":"BMC", "url": "http://www.biomedcentral.com/1471-2350/13/53/abstract"}
             ],
             "press": [
                 { "name": "jezebel", "url": "http://jezebel.com/5923807/scientists-find-the-genes-that-determine-breast-size"},
@@ -25,6 +38,7 @@
             "abstract": "Let p(n) be the number of partitions of an integer n.  Euler proved the following recurrence for p(n): p(n)=\\sum _{k=1}^{\\infty} (-1)^{k+1} (p(n-\\omega (k))+p(n-\\omega (-k))), where \\omega (k)=\\frac{3k^2+k}{2}. In view of Euler's result one sees that it is fairly easy to compute p(n) very quickly.  However, many questions remain open even regarding the parity of p(n).  In this paper we use various facts about elliptic curves and q-series to construct, for every i>0, finite sets M_i for which p(n) is odd for an odd number of n in M_i.",
             "summary": "A number theory paper that uses a bit of technical machinery to find odd values of the partition function. A high-school project that won third place in the Westinghouse Science Talent Search.",
             "thumbnail": "partitions.png",
+            "links": [ {"name":"PDF", "url": "pdf/q-series_elliptic_curves_partition_function.pdf"}],
             "press": [
                 {"name": "Mathland", "url": "http://www.maa.org/mathland/mathland_3_24.html"}
             ]
@@ -35,7 +49,7 @@
             "title": "Toric ideals of homogeneous phylogenetic models",
             "citation": "In the proceedings of <i>ISSAC 2004</i>, pages 149--154. ACM, New York, 2004.",
             "abstract": "We consider the model of phylogenetic trees in which every node of the tree is an observed, binary random variable and the transition probabilities are given by the same matrix on each edge of the tree.  The ideal of invariants of this model is a toric ideal.  We are able to compute the Gr&ouml;bner basis and minimal generating set for this ideal for trees with up to 11 nodes.  These are the first non-trivial Gr&ouml;bner bases calculations in 2048 indeterminates.  We conjecture that there is a quadratic Gr&ouml;bner basis for binary trees, but that generators of degree $n$ are required for some trees with $n$ nodes.  The polytopes associated with these toric ideals display interesting finiteness properties.  We describe the polytope for an infinite family of binary trees and conjecture (based on extensive computations) that there is a universal bound on the number of vertices of the polytope of a binary tree.",
-            "summary": "An early paper applying algebraic techniques to phylogenetics",
+            "summary": "An application of some algebraic techniques to a simple problem in phylogenetics.",
             "thumbnail": "toric2.png",
             "press": []
         },
@@ -45,6 +59,7 @@
             "title": "Phylogenetic algebraic geometry",
             "citation": "In C. Ciliberto, A. Geramita, B. Harbourne, R-M. Roig, and K. Ranestad, editors, <i>Projective varieties with unexpected properties</i>, pages 237--255. Walter de Gruyter GmbH & Co. KG, Berlin, 2005.",
             "abstract": "Phylogenetic algebraic geometry is concerned with certain complex projective algebraic varieties derived from finite trees.  Real positive points on these varieties represent probabilistic models of evolution. For small trees, we recover classical geometric objects, such as toric and determinantal varieties and their secant varieties, but larger trees lead to new and largely unexplored territory. This paper gives a self-contained introduction to this subject and offers numerous open problems for algebraic geometers.",
+            "summary": "An introduction to phylogenetics for algebraic geometers.",
             "thumbnail": "phyloag.png",
             "links": [],
             "press": []
@@ -55,6 +70,7 @@
             "title":  "Ultra-Conserved Elements in Vertebrate and Fly Genomes",
             "citation": "In L. Pachter and B. Sturmfels, editors, <i>Algebraic Statistics for Computational Biology</i>, chapter 22, pages 387--402. Cambridge University Press, Cambridge, UK, 2005.",
             "thumbnail": "ultra.png",
+            "summary": "An analysis of some of the most conserved DNA sequences",
             "links": [],
             "press": []
         },
@@ -148,7 +164,7 @@
             "title": "A genetic variant near olfactory receptor genes influences cilantro preference",
             "citation": "<i>ArXiv preprint</i>, September 2012.",
             "abstract": "The leaves of the Coriandrum sativum plant, known as cilantro or coriander, are widely used in many cuisines around the world. However, far from being a benign culinary herb, cilantro can be polarizing---many people love it while others claim that it tastes or smells foul, often like soap or dirt. This soapy or pungent aroma is largely attributed to several aldehydes present in cilantro. Cilantro preference is suspected to have a genetic component, yet to date nothing is known about specific mechanisms. Here we present the results of a genome-wide association study among 14,604 participants of European ancestry who reported whether cilantro tasted soapy, with replication in a distinct set of 11,851 participants who declared whether they liked cilantro. We find a single nucleotide polymorphism (SNP) significantly associated with soapy-taste detection that is confirmed in the cilantro preference group. This SNP, rs72921001, (p=6.4e-9, odds ratio 0.81 per A allele) lies within a cluster of olfactory receptor genes on chromosome 11. Among these olfactory receptor genes is OR6A2, which has a high binding specificity for several of the aldehydes that give cilantro its characteristic odor. We also estimate the heritability of cilantro soapy-taste detection in our cohort, showing that the heritability tagged by common SNPs is low, about 0.087. These results confirm that there is a genetic component to cilantro taste perception and suggest that cilantro dislike may stem from genetic variants in olfactory receptors. We propose that OR6A2 may be the olfactory receptor that contributes to the detection of a soapy smell from cilantro in European populations.",
-            "thumbnail": "cilantro.jpg",
+            "thumbnail": "cilantro.png",
             "press": [
                 {"name": "nature", "url": "something"},
                 {"name": "nature", "url": "something"},

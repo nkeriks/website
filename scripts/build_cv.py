@@ -54,7 +54,7 @@ def escape_tex(value):
 
 def main():
     context = parse_json('../templates/papers.json')
-    latex_jinja_env = jinja2.Environment(loader=jinja2.FileSystemLoader(['.']), 
+    latex_jinja_env = jinja2.Environment(loader=jinja2.FileSystemLoader(['../cv']), 
         block_start_string = '\BLOCK{',
         block_end_string = '}',
         variable_start_string = '\VAR{',
@@ -71,7 +71,7 @@ def main():
     latex_jinja_env.filters["escapetex"] = escape_tex
 
     template = latex_jinja_env.get_template('template.tex')
-    fp = open('cv.tex', 'w')
+    fp = open('../cv/cv.tex', 'w')
     fp.write(template.render(context).encode('utf8'))
     fp.close()
 

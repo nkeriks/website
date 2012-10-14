@@ -3,7 +3,7 @@ import jinja2
 import re
 
 def write_html(context, template, outfile):
-    env = jinja2.Environment(loader=jinja2.FileSystemLoader(['.']))
+    env = jinja2.Environment(loader=jinja2.FileSystemLoader(['../templates']))
     env.filters["boldnke"] = boldnke
     template = env.get_template(template)
     fp = open(outfile, 'w')
@@ -18,7 +18,7 @@ def boldnke(s):
     return re.sub("N. Eriksson", "<b>N. Eriksson</b>", s)
 
 def main():
-    context = parse_json('papers.json')
+    context = parse_json('../templates/papers.json')
     write_html(context, 'papers.jtml', '../web/papers.html')
     write_html(context, 'index.jtml', '../web/index.html')
 
