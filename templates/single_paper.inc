@@ -24,6 +24,11 @@
         <a href={{link.url}}>{{link.name}}</a>
       {% endfor %} </p>
     {% endif %}
+    {% if paper.blogs %}
+    <p class="press"> <b>Blogs:</b> {% for link in paper.blogs %} 
+        <a href={{link.url}}>{{link.name}}</a>
+      {% endfor %} </p>
+    {% endif %}
   <!--<a href="#" id="toggle_details_{{paper.name}}">Read more &raquo;</a>-->
   <div class="hidden" id="details_{{paper.name}}">
     {% if paper.abstract %}
