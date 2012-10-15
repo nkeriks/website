@@ -1,5 +1,4 @@
 body {
-  /*background: #123;*/
   color: #333;
   font-size: 11px;
   height: auto;
@@ -75,7 +74,7 @@ ol, ul {
 nav[role="navigation"] ul li {
     float: left;
     width: 20%;
-    margin: 14px 30px 0 0;
+    margin: 14px 25px 0 0;
     }
 nav[role="navigation"] ul li.last {
     margin-right: 0;
@@ -126,13 +125,6 @@ nav[role="navigation"] ul li.active a em {
 
 
 
-
-
-
-
-
-
-
 .topleft A:link, .topleft A:visited, .topleft A:active, .topleft A:hover {
     text-decoration: none;
     display: block;
@@ -148,26 +140,35 @@ nav[role="navigation"] ul li.active a em {
 }
 
 
-.sb-icon-tw A:link, .sb-icon-tw A:visited, .sb-icon-tw A:active, .sb-icon-tw A:hover {
-    border: 0;
-    outline: 0;
-    background-image:url('../img/tw.png');
-    background-repeat:no-repeat;
-    background-position: 0 1px;
+.colored {
+  background-color: #FFCC80;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+}
+
+.side {
+    padding: 20px;
+}
+
+
+.sb A:link, .sb A:visited, .sb A:active, .sb A:hover {
+    color: #000;
     text-decoration: none;
     display: block;
-    padding: 0 0 0 42px;
 }
 
 .sb-icon-gs A:link, .sb-icon-gs A:visited, .sb-icon-gs A:active, .sb-icon-gs A:hover {
+    /*
     border: 0;
     outline: 0;
     background-image:url('../img/tw.png');
     background-repeat:no-repeat;
     background-position: 0 1px;
+    padding: 0 0 0 42px;
+    */
+    color: #000;
     text-decoration: none;
     display: block;
-    padding: 0 0 0 42px;
 }
 
 .box {
@@ -215,9 +216,6 @@ p.abstract {
     margin-top:-10px;
     font-size: 10px;
 }
-
-
-
 
 img.thumbnail {
     margin: 10px;

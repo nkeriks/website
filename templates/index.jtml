@@ -11,10 +11,33 @@
 <body>
 
 <div class="container_12">
+  <div class="grid_12 header">
+  <div class="grid_3 alpha topleft">
+    <p><a href="index.html">Nicholas Eriksson</a></p>
+  </div>
 
-  {% include "header.inc" %}
+  <div class="grid_7">
+    <nav role="navigation"> 
+    <ul class="group">
+    <li class="active"><a href="index.html"><strong>Home</strong></a></li>
+    <li><a href="papers.html" title=""><strong>Papers</strong></a></li>
+    <li><a href="http://nickeriksson.blogspot.com" title=""><strong>Blog </strong></a></li>
+    <li><a href="eriksson-cv.pdf" title=""><strong>Vitae</strong></a></li>
+    </ul>
+    </nav>
+  </div>
 
-  <div class="grid_10">
+  <div class="grid_2 omega">
+    <a href="img/IMG_9793-1.jpg"><img src="img/IMG_9793-1.jpg" 
+        alt="me" align="right" width="130" height="130"/></a>
+    </div>
+  </div>
+
+  <div class="clear"></div>
+
+
+
+  <div class="grid_9">
     <div class="grid_7 alpha">
 
     Bio
@@ -37,17 +60,27 @@
     </div>
 
 
-    <!--<div class="grid_3 omega">
-    <a href="img/IMG_9793-1.jpg"><img src="img/IMG_9793-1.jpg" 
-        alt="me" align="center" width="200" height="200"/></a>
-    </div>-->
+    <div class="grid_2 omega">
+    Something
+    </div>
   </div>
 
-  <div class="grid_2 menu omega">
-    <p> <strong>Email:</strong> <a href="mailto:nick.eriksson@gmail.com">nick.eriksson@gmail.com</a></p>
+  <div class="grid_3 colored">
+    <div class="side">
 
-    <p class="sb-icon-tw"><a href="https://twitter.com/nkeriks">Follow me <strong>on Twitter</strong></a></p>
-    <p class="sb-icon-gs"><a href="http://scholar.google.com/citations?user=5kf1vNwAAAAJ&hl=en">My <strong>Google Scholar</strong> profile</a></p>
+    <ul>
+    <li> Contact info</li>
+
+    <p class="sb"><a href="mailto:nick.eriksson@gmail.com">nick.eriksson@gmail.com</a></p>
+    <p class="sb"> 1390 Shorebird Way<br />
+    Mountain View, CA 94043 </p>
+
+    <li> Social </li>
+    <p class="sb"><a href="https://twitter.com/nkeriks">Follow me <strong>on Twitter</strong></a></p>
+    <p class="sb"><a href="http://scholar.google.com/citations?user=5kf1vNwAAAAJ&hl=en">My <strong>Google Scholar</strong> profile</a></p>
+
+    </ul>
+    </div>
   </div>
 
   <div class="clear"></div>
@@ -57,12 +90,12 @@
     <h3> Scroll </h3>
     <p> something </p>
   </div>
--->
 
   <div class="grid_12">
     Footer
   </div>
 
+-->
 </div>
 </body>
 </html>

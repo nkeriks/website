@@ -14,36 +14,82 @@
 </head>
 <body>
 <div class="container_12">
-  {% include "header.inc" %}
+  <div class="grid_12 header">
+  <div class="grid_3 alpha topleft">
+    <p><a href="index.html">Nicholas Eriksson</a></p>
+  </div>
+
+  <div class="grid_7">
+    <nav role="navigation"> 
+    <ul class="group">
+    <li><a href="index.html"><strong>Home</strong></a></li>
+    <li class="active"><a href="papers.html" title=""><strong>Papers</strong></a></li>
+    <li><a href="http://nickeriksson.blogspot.com" title=""><strong>Blog </strong></a></li>
+    <li><a href="eriksson-cv.pdf" title=""><strong>Vitae</strong></a></li>
+    </ul>
+    </nav>
+  </div>
+
+  <div class="grid_2 omega">
+    <a href="img/IMG_9793-1.jpg"><img src="img/IMG_9793-1.jpg" 
+        alt="me" align="right" width="130" height="130"/></a>
+    </div>
+  </div>
+
+  <div class="clear"></div>
+
 
     <!--{{papers|length}} papers total.-->
 
     {% for papername, paper in papers|dictsort|sort(reverse=True) %}
       <div class="grid_11 suffix_1 box">
-        <!--<h5>{{ loop.index }}</h5>-->
-        {% include "single_paper.inc" %}
+        <div class="grid_2 alpha">
+            <h6>{{ papers|length - loop.index + 1 }}</h6>
+          <img class="thumbnail" src="img/{{paper.thumbnail}}">
+        </div>
+        
+        <div class="grid_9 omega">
+          <p class="title">{{paper.title}}</p>
+          <p class="authors"> {% if "math" in paper.category %}{{paper.authors}}
+          {% else %} {{paper.authors|boldnke}}
+          {% endif %}</p>
+          <p class="citation">{{paper.citation}}</p>
+          {% if paper.summary %}<p class="summary"><b>Summary:</b> {{paper.summary}}</p>{% endif %}
+            
+          <p class="links"> <b>Links:</b>
+          {% if paper.pubmed %}
+            <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{paper.pubmed}}">Pubmed</a>
+          {% endif %}
+          {% for link in paper.links %} 
+              <a href={{link.url}}>{{link.name}}</a>
+          {% endfor %}</p>
+        
+            {% if paper.press %}
+            <p class="press"> <b>Press:</b> {% for link in paper.press %} 
+                <a href={{link.url}}>{{link.name}}</a>
+              {% endfor %} </p>
+            {% endif %}
+            {% if paper.blogs %}
+            <p class="press"> <b>Blogs:</b> {% for link in paper.blogs %} 
+                <a href={{link.url}}>{{link.name}}</a>
+              {% endfor %} </p>
+            {% endif %}
+          <!--<a href="#" id="toggle_details_{{paper.name}}">Read more &raquo;</a>-->
+          <div class="hidden" id="details_{{paper.name}}">
+            {% if paper.abstract %}
+                <p class="abstract"><b>Abstract:</b> {{paper.abstract}}</p>
+            {% endif %}
+          </div>
+        </div>
+        
+        <div class="clear"></div>
+
+
       </div>
         <hr />
     {% endfor %}
 
 </div>
 
-<script type="text/javascript">
-    $(document).ready(function() {
-        $("#thumbnail").click(function(){
-            $("#toggle_details").click();
-        });
-            
-        $("#toggle_details").click(function(){
-            $("#details").slideToggle()
-        }).toggle(
-            function(){
-                $(this).html("Hide Details &laquo;")
-            },
-            function(){
-                $(this).html("Read more &raquo;")
-        }); 
-    });
-</script>
 </body>
 </html>
