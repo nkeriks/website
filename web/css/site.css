@@ -1,10 +1,10 @@
 body {
   color: #333;
-  font-size: 11px;
+  font-size: 12px;
   height: auto;
   padding-bottom: 20px;
   /*font-family: 'PT Sans', 'Helvetica Neue';*/
-  font-family: 'Helvetica Neue', 'sans';
+  font-family: 'Helvetica', 'sans';
 }
 
 .container_12,
@@ -92,7 +92,7 @@ nav[role="navigation"] ul li a {
 nav[role="navigation"] ul li a strong {
     display: block;
     padding: 0;
-    font-family: "Whitney SSm A", "Whitney SSM B", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-weight: 700;
     color: rgba(78, 68, 60, 0.5);
     -webkit-transition: color 0.2s ease-in-out;
@@ -123,8 +123,6 @@ nav[role="navigation"] ul li.active a em {
     }
     
 
-
-
 .topleft A:link, .topleft A:visited, .topleft A:active, .topleft A:hover {
     text-decoration: none;
     display: block;
@@ -148,6 +146,32 @@ nav[role="navigation"] ul li.active a em {
 
 .side {
     padding: 20px;
+    font-family: 'Helvetica', 'sans';
+}
+
+.side ul {
+    margin: 0px;
+}
+
+.side li {
+    margin: 0;
+}
+
+.sbhead {
+    font-weight: bold;
+    margin: 0px 0px 0px 0px;
+}
+
+.sbhead2 {
+    font-weight: bold;
+    margin: 20px 0px 0px 0px;
+}
+
+.mainbox {
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-right: 5px;
 }
 
 
@@ -157,18 +181,8 @@ nav[role="navigation"] ul li.active a em {
     display: block;
 }
 
-.sb-icon-gs A:link, .sb-icon-gs A:visited, .sb-icon-gs A:active, .sb-icon-gs A:hover {
-    /*
-    border: 0;
-    outline: 0;
-    background-image:url('../img/tw.png');
-    background-repeat:no-repeat;
-    background-position: 0 1px;
-    padding: 0 0 0 42px;
-    */
-    color: #000;
-    text-decoration: none;
-    display: block;
+.sb {
+    margin: 10px;
 }
 
 .box {
