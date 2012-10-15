@@ -116,11 +116,11 @@
 \centerline{\myname}
 
 \begin{tabbing}
-\mbox{}\quad\= Office Address: \ \= Mathematics Department\qquad\qquad\qquad\quad
+\mbox{}\quad\= Office Address: \ \=  Mountain View, CA\ \ 94043 \qquad\quad
             \= Email Address: \ \= \kill
 \>Office Address: \> 23andMe                   \> Phone:         \> (510) 798--5124\\
 \>                \> 1390 Shorebird Way        \> Email Address: \> \url{nick.eriksson@gmail.com}\\
-\>                \>Mountain View, CA\ \ 94043 \> Homepage:      \>\url{http://www.stat.uchicago.edu/~eriksson}\\
+\>                \>Mountain View, CA\ \ 94043 \> Homepage:      \>\url{http://stat.uchicago.edu/~eriksson}\\
 \> Date of Birth: \> 1978 (Montana, USA)       \> Date of CV:    \> October 2012
 \end{tabbing}
 
@@ -137,21 +137,21 @@
 
 \dates{2008$\;$--$\;$2009} Scientist, Statistical Genetics, \textbf{23andMe, Inc.}, Mountain View, CA
 
-\dates{2007$\;$--$\;$2008} Visiting Assistant Professor, \textbf{Department of Statistics, University of Chicago}, Chicago, IL
+\dates{2007$\;$--$\;$2008} Visiting Assistant Professor, \textbf{Department of Statistics, \\ University of Chicago}, Chicago, IL
 
-\dates{2006$\;$--$\;$2007} NSF Postdoctoral Research Fellow, \textbf{Department of Statistics, Stanford University}, Stanford, CA
+\dates{2006$\;$--$\;$2007} NSF Postdoctoral Research Fellow, \textbf{Department of Statistics, \\ Stanford University}, Stanford, CA
 
 \dates{2006$\;$--$\;$2007} Postdoctoral Fellow, \textbf{Mathematical Sciences Research Institute}, Berkeley, CA
 
 \dates{2006\quad Ph.D.} Mathematics, \textbf{University of California, Berkeley} (advisor: Bernd Sturmfels)
 
-\dates{2006\quad \quad} Designated Emphasis in Computational and Genomic Biology, \textbf{University of California, Berkeley}
+\dates{2006\quad \quad} Designated Emphasis in Computational and Genomic Biology, \\ \textbf{University of California, Berkeley}
 
 \dates{2001\quad B.S.}	Mathematics, \textbf{Massachusetts Institute of Technology}, Cambridge, MA
 
 \end{jobs}
 
-\vspace{-3mm}
+\vspace{-1mm}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \marginlabel{Scientific/Academic honors and grants}%%%%%%%%%%%%%%%%%%%
@@ -196,12 +196,13 @@
 \vspace{-2ex}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \marginlabel{\sf Peer-reviewed articles (\VAR{pr} total, \VAR{firstlast} as first/last/unordered author)}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\marginlabel{\sf Peer-reviewed articles (\VAR{firstlast} as first/last/unordered author)}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{papers}[\VAR{pr}]%\setcounter{enumi}{\value{separated}}%restores \enumi
 
 \BLOCK{for year, papernames in years|dictsort|sort(reverse=True)} 
-    \BLOCK{for pname in papernames}
+    \BLOCK{for pname in papernames|sort(reverse=True)}
         %- if loop.first
         \paperyear{\VAR{year}}
         %- else
@@ -228,7 +229,7 @@
 \begin{papers}[\VAR{npr}]% be sure to set so that the last paper is number 1.
 
 \BLOCK{for year, papernames in notreviewedyears|dictsort|sort(reverse=True)} 
-    \BLOCK{for pname in papernames}
+    \BLOCK{for pname in papernames|sort(reverse=True)}
         %- if loop.first
         \paperyear{\VAR{year}}
         %- else
@@ -329,7 +330,8 @@ BMC Bioinformatics\\
 \end{tabular}
 \end{tabular}
 
-\vspace{-1ex}
+\newpage
+%\vspace{-1ex}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \marginlabel{Teaching activities}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -339,8 +341,8 @@ BMC Bioinformatics\\
 \dates{2008\ \,\,Spring} Statistics 234 (Statistical Models/Methods), University of Chicago
 \dates{2008\ \,\,Winter} Reading course on metagenomics and population genetics, University of Chicago
 \dates{2007\ \,\,Fall} Statistics 234 (Statistical Models/Methods), University of Chicago
-\dates{2007\ \,\,Summer} Second Argentine School of Mathematics and Biology, short course on Drug resistance in HIV
-\dates{2005\ \,\,Winter} First Argentine School of Mathematics and Biology, short course on Algebraic statistics for computational biology
+\dates{2007\ \,\,July} Second Argentine School of Mathematics and Biology, short course on Drug resistance in HIV
+\dates{2005\ \,\,Dec} First Argentine School of Mathematics and Biology, short course on Algebraic statistics for computational biology
 \dates{2004\ \,\,Fall} Calculus 1A, UC Berkeley, Graduate Student Instructor
 \end{jobs}
 
