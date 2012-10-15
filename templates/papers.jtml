@@ -16,13 +16,14 @@
 <div class="container_12">
   {% include "header.inc" %}
 
-    {{papers|length}} papers total.
+    <!--{{papers|length}} papers total.-->
 
     {% for papername, paper in papers|dictsort|sort(reverse=True) %}
       <div class="grid_11 suffix_1 box">
         <!--<h5>{{ loop.index }}</h5>-->
         {% include "single_paper.inc" %}
       </div>
+        <hr />
     {% endfor %}
 
 </div>

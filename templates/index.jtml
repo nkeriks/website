@@ -16,6 +16,8 @@
 
   <div class="grid_10">
     <div class="grid_7 alpha">
+
+    Bio
       <p>I am a principal scientist at <a
       href="http://23andme.com">23andMe</a>, 
       where I work to uncover the mysteries of
@@ -26,6 +28,7 @@
       including Parkinson's disease, hypothyroidism, cilantro dislike, and
       dimples. I use tools from statistics, mathematics, and machine learning</p>
 
+    Research interests
       <p>My research interests...</p>
 
       <p>I blog about statistics and risk prediction at the <a
@@ -34,17 +37,17 @@
     </div>
 
 
-    <div class="grid_3 omega">
+    <!--<div class="grid_3 omega">
     <a href="img/IMG_9793-1.jpg"><img src="img/IMG_9793-1.jpg" 
         alt="me" align="center" width="200" height="200"/></a>
-    </div>
+    </div>-->
   </div>
 
-  <div class="grid_2 menu">
+  <div class="grid_2 menu omega">
+    <p> <strong>Email:</strong> <a href="mailto:nick.eriksson@gmail.com">nick.eriksson@gmail.com</a></p>
+
     <p class="sb-icon-tw"><a href="https://twitter.com/nkeriks">Follow me <strong>on Twitter</strong></a></p>
-    <p class="sb-icon-gs"><a href="">Follow me <strong>on Google Scholar</strong></a></p>
-    <p class="sb-icon-gs"><a href="">My contact information</a></p>
-    <p class="sb-icon-gs"><a href="">RSS</a></p>
+    <p class="sb-icon-gs"><a href="http://scholar.google.com/citations?user=5kf1vNwAAAAJ&hl=en">My <strong>Google Scholar</strong> profile</a></p>
   </div>
 
   <div class="clear"></div>

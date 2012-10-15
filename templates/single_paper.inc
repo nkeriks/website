@@ -9,7 +9,7 @@
   {% else %} {{paper.authors|boldnke}}
   {% endif %}</p>
   <p class="citation">{{paper.citation}}</p>
-  <p class="summary"><b>Summary:</b> {{paper.summary}}</p>
+  {% if paper.summary %}<p class="summary"><b>Summary:</b> {{paper.summary}}</p>{% endif %}
     
   <p class="links"> <b>Links:</b>
   {% if paper.pubmed %}
