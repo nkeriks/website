@@ -16,7 +16,7 @@ def parse_json(jfile):
         cat = j['papers'][k]["category"]
         if "book" in cat:
             other_years[year].append(k)
-        if "preprints" in cat:
+        elif "preprints" in cat:
             peer_years['submitted'].append(k)
         else:
             peer_years[year].append(k)
