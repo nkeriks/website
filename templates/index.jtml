@@ -35,47 +35,58 @@
 
   <div class="clear"></div>
 
-
-
   <div class="grid_9">
-    <div class="grid_7 alpha">
+    <div class="grid_5 alpha">
+    <div class="mainbox">
 
-    <h5 class="sbhead"> Bio</h5>
+    <h5 class="sbhead"> Biography</h5>
 
       <p class="mainbox">I am a principal scientist at <a
-      href="http://23andme.com">23andMe</a>, 
-      where I work to uncover the mysteries of
-      the genetics of complex human traits.</p>
+      href="http://23andme.com">23andMe</a>, where I study the genetics of
+      complex human diseases and traits using one of the world's largest
+      genetic databases.</p>
 
-      <p class="mainbox"> My <a href="papers.html">work</a> has lead to the discovery of
-      hundreds of new genetic associations with a wide range of conditions,
+      <p class="mainbox"> My <a href="papers.html">work</a> has lead to the
+      discovery of genetic associations with a wide range of conditions,
       including Parkinson's disease, hypothyroidism, cilantro dislike, and
-      dimples. I use tools from statistics, mathematics, and machine learning</p>
+      dimples. I use tools from statistics, mathematics, and machine learning
+      to understand complex trait biology and our ability to make predictions
+      based on genetics.  </p>
 
-    <h5 class="sbhead">Research interests</h5>
-      <p class="mainbox">My research interests...</p>
+      <p class="mainbox">
+      I studied mathematics at MIT and UC Berkeley. After graduating, I was a
+      NSF postdoc at Stanford University and a Visiting Assistant Professor in
+      Statistics at the University of Chicago.  I joined 23andMe in 2008.
+      </p>
 
-    <h5 class="sbhead">Blog</h5>
-      <p class="mainbox">I blog about statistics and risk prediction at the <a href="">Turning of the Key</a>.</p> 
+      <p class="mainbox">I occasionally blog about statistics and risk
+      prediction at the <a href="">Turning of the Key</a>.</p> 
+    </div>
     </div>
 
-
-    <div class="grid_2 omega">
+    <div class="grid_4 omega">
+    <div class="mainbox">
+    <h5 class="sbhead">Research Interests</h5>
+       <ul class="bullet">
+       <li>Genetic architecture and risk prediction of complex traits</li>
+       <li>Integrating sequencing data into genome-wide association studies</li>
+       <li>Studying the evolution of cancer and HIV populations using next-generation sequencing</li>
+       <li>Machine learning and discrete mathematics in computational biology</li>
+       </ul>
+    </div>
     </div>
   </div>
 
   <div class="grid_3 colored">
     <div class="side">
-    <p class="sbhead">Contact:</p>
-    <ul>
-        <li><p class="sb"><a href="mailto:nick.eriksson@gmail.com">nick.eriksson@gmail.com</a></p></li>
-        <li><p class="sb"> 1390 Shorebird Way<br /> Mountain View, CA 94043 </p></li>
+    <h5 class="sbhead">Contact:</h5>
+        <p class="sb"><a href="mailto:nick.eriksson@gmail.com"><strong>nick.eriksson@gmail.com</strong></a></p>
+        <p class="sb"> 1390 Shorebird Way<br /> Mountain View, CA 94043 </p>
  
-    <p class="sbhead2">Social media:</p>
-        <li> <p class="sb"><a href="https://twitter.com/nkeriks">Follow me on Twitter</a></p></li>
-        <li> <p class="sb"><a href="http://scholar.google.com/citations?user=5kf1vNwAAAAJ&hl=en">My Google Scholar profile</a></p></li>
-        <li> <p class="sb"><a href="http://nickeriksson.blogspot.com">My blog</a></p></li>
-    </ul>
+    <h5 class="sbhead2">Social media:</h5>
+        <p class="sb"><a href="https://twitter.com/nkeriks">Follow me on <strong>Twitter</strong></a></p>
+        <p class="sb"><a href="http://scholar.google.com/citations?user=5kf1vNwAAAAJ&hl=en">My <strong>Google Scholar</strong> profile</a></p>
+        <p class="sb"><a href="http://nickeriksson.blogspot.com">My <strong>blog</strong></a></p>
     </div>
   </div>
 
