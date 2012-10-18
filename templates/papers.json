@@ -15,7 +15,9 @@
                 {"name": "The turning of the key", "url": "http://nickeriksson.blogspot.com/2012/08/on-height-prediction.html"},
                 {"name": "The Spitoon", "url": "http://spittoon.23andme.com/23andme-research/using-genetics-and-family-history-for-health"}
             ],
-            "press": []
+            "press": [
+                {"name": "SF Chronicle", "url": "http://blog.sfgate.com/techchron/2012/10/17/genetics-firm-weaves-history-and-dna-for-predicting-diseases/"}
+                ]
         },
         "2012.06.breastsize": {
             "category": ["genetics", "flc"],
