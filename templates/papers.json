@@ -226,6 +226,7 @@
                 {"name": "Haldane's Sieve", "url": "http://haldanessieve.org/2012/09/14/our-paper-a-genetic-variant-near-olfactory-receptor-genes-influences-cilantro-preference/"}
                 ],
             "links": [
+                {"name": "Flavour", "url": "http://www.flavourjournal.com/content/1/1/22/abstract"},
                 {"name": "arXiv", "url": "http://arxiv.org/abs/1209.2096"}
             ]
         },
