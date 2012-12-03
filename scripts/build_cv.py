@@ -18,6 +18,8 @@ def parse_json(jfile):
             other_years[year].append(k)
         elif "preprints" in cat:
             peer_years['submitted'].append(k)
+            if "flc" in cat or 'math' in cat:
+                firstlast += 1
         else:
             peer_years[year].append(k)
             if "flc" in cat or 'math' in cat:

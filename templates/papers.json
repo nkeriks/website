@@ -1,5 +1,19 @@
 {
     "papers": {
+        "2012.11.stretch": {
+            "category": ["genetics", "preprints", "flc"],
+            "authors": "J. Y. Tung, A.K. Kiefer, M. Mullins, U. Francke, N. Eriksson",
+            "title": "Variants near elastic microfibril genes are associated with non-syndromic striae distensae",
+            "citation": "<i>under review</i>, 2012"
+        },
+        "2012.12.brca": {
+            "category": ["genetics", "preprints"],
+            "authors": "U. Francke, C. Dijamco, A. K. Kiefer, N. Eriksson, B. R. Moiseff, J. Y. Tung, J. L. Mountain",
+            "title": "Dealing with the unexpected: Consumer responses to direct-access BRCA mutation testing",
+            "citation": "<i>under review</i>, 2012.",
+            "abstract": "Background: Inherited BRCA gene mutations convey a high risk for breast and ovarian cancer, but current guidelines limit BRCA mutation testing to women with early-onset cancer and relatives of mutation-positive cases.  Benefits and risks of providing this information directly to consumers are unknown.  Methods: To assess and quantify emotional and behavioral reactions of consumers to their 23andMe Personal Genome Service report of three BRCA mutations that are common in Ashkenazi Jews, we invited all 136 BRCA1 and BRCA2 mutation-positive individuals in the 23andMe customer database who had chosen to view their BRCA reports to participate in this IRB-approved study. We also invited 160 mutation-negative customers who were matched for age, sex and ancestry. Semi-structured phone interviews were completed for 32 mutation carriers, 16 women and 16 men, and 31 non-carriers. Questions addressed personal and family history of cancer, decision and timing of viewing the BRCA report, recollection of the result, emotional responses, perception of personal cancer risk, information sharing, and actions taken or planned.  Results: Eleven women and 14 men had received the unexpected result that they are carriers of a BRCA1 185delAG or 5382insC, or BRCA2 6174delT mutation. None of them reported extreme anxiety and four experienced moderate anxiety that was transitory. Remarkably, five women and six men described their response as neutral. Most carrier women sought medical advice and four underwent risk-reducing procedures after confirmatory mutation testing. Male carriers realized that their test results implied genetic risk for female relatives, and several of them felt considerably burdened by this fact. Sharing mutation information with family members led to screening of at least 30 relatives and identification of 13 additional carriers. Non-carriers did not report inappropriate actions, such as foregoing cancer screening. All but one of the 32 mutation-positive participants appreciated learning their BRCA mutation status.  Conclusions: Direct access to BRCA mutation tests, considered a model for high-risk actionable genetic tests of proven clinical utility, provided clear benefits to participants. The unexpected information demonstrated a cascade effect as relatives of newly identified carriers also sought testing and more mutation carriers were identified. Given the absence of evidence for serious emotional distress or inappropriate actions, broader screening of Ashkenazi Jewish women for these three BRCA mutations should be considered.",
+            "summary": ""
+        },
         "2012.10.famhist": {
             "category": ["genetics", "flc"],
             "authors": "C. B. Do, D. A. Hinds, U. Francke, N. Eriksson",
@@ -190,11 +204,11 @@
             "thumbnail": "thesis.png",
             "links": [{"name": "pdf", "url":"pdf/nke-diss.pdf"}]
         },
-        "2012.09.cilantro": {
-            "category": ["genetics", "preprints", "flc"],
+        "2012.12.cilantro": {
+            "category": ["genetics", "flc"],
             "authors": "N. Eriksson, S. Wu, C. B. Do, A. K. Kiefer, J. Y. Tung, J. L.  Mountain, D. A. Hinds, and U. Francke",
             "title": "A genetic variant near olfactory receptor genes influences cilantro preference",
-            "citation": "<i>ArXiv preprint</i>, September 2012.",
+            "citation": "<i>Flavour</i>, 1:22, Dec 2012.",
             "abstract": "The leaves of the Coriandrum sativum plant, known as cilantro or coriander, are widely used in many cuisines around the world. However, far from being a benign culinary herb, cilantro can be polarizing---many people love it while others claim that it tastes or smells foul, often like soap or dirt. This soapy or pungent aroma is largely attributed to several aldehydes present in cilantro. Cilantro preference is suspected to have a genetic component, yet to date nothing is known about specific mechanisms. Here we present the results of a genome-wide association study among 14,604 participants of European ancestry who reported whether cilantro tasted soapy, with replication in a distinct set of 11,851 participants who declared whether they liked cilantro. We find a single nucleotide polymorphism (SNP) significantly associated with soapy-taste detection that is confirmed in the cilantro preference group. This SNP, rs72921001, (p=6.4e-9, odds ratio 0.81 per A allele) lies within a cluster of olfactory receptor genes on chromosome 11. Among these olfactory receptor genes is OR6A2, which has a high binding specificity for several of the aldehydes that give cilantro its characteristic odor. We also estimate the heritability of cilantro soapy-taste detection in our cohort, showing that the heritability tagged by common SNPs is low, about 0.087. These results confirm that there is a genetic component to cilantro taste perception and suggest that cilantro dislike may stem from genetic variants in olfactory receptors. We propose that OR6A2 may be the olfactory receptor that contributes to the detection of a soapy smell from cilantro in European populations.",
             "thumbnail": "cilantro.png",
             "summary": "We uncover a cluster of olfactory receptor genes that play a role in cilantro dislike.",
@@ -362,7 +376,7 @@
             "category": ["genetics", "flc"],
             "authors": "N. Eriksson, J. M. Macpherson, J. Y. Tung, L. S. Hon, B. Naughton, S. Saxonov, L. Avey, A. Wojcicki, I. Pe'er, and J. Mountain",
             "title": "Web-based, participant-driven studies yield novel genetic associations for common traits",
-            "citation": "<i>PLoS Genet., 6:e1000993</i>, Jun 2010.",
+            "citation": "<i>PLoS Genet.</i>, 6:e1000993, Jun 2010.",
             "abstract": "Despite the recent rapid growth in genome-wide data, much of human variation remains entirely unexplained. A significant challenge in the pursuit of the genetic basis for variation in common human traits is the efficient, coordinated collection of genotype and phenotype data. We have developed a novel research framework that facilitates the parallel study of a wide assortment of traits within a single cohort. The approach takes advantage of the interactivity of the Web both to gather data and to present genetic information to research participants, while taking care to correct for the population structure inherent to this study design. Here we report initial results from a participant-driven study of 22 traits.  Replications of associations (in the genes OCA2, HERC2, SLC45A2, SLC24A4, IRF4, TYR, TYRP1, ASIP, and MC1R) for hair color, eye color, and freckling validate the Web-based, self-reporting paradigm. The identification of novel associations for hair morphology (rs17646946, near TCHH; rs7349332, near WNT10A; and rs1556547, near OFCC1), freckling (rs2153271, in BNC2), the ability to smell the methanethiol produced after eating asparagus (rs4481887, near OR2M7), and photic sneeze reflex (rs10427255, near ZEB2, and rs11856995, near NR2F2) illustrates the power of the approach.", 
             "pubmed": "20585627",
             "thumbnail": "common.png",
