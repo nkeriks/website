@@ -58,6 +58,7 @@
     <!--{{papers|length}} papers total.-->
 
     {% for papername, paper in papers|dictsort|sort(reverse=True) %}
+      {% if paper.links %}
       <div class="grid_11 suffix_1 box">
         <div class="grid_2 alpha">
             <h6>{{ papers|length - loop.index + 1 }}</h6>
@@ -99,10 +100,9 @@
         </div>
         
         <div class="clear"></div>
-
-
       </div>
         <hr />
+      {% endif %} 
     {% endfor %}
 
 </div>
