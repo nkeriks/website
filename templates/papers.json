@@ -7,12 +7,12 @@
             "citation": "<i>Under review</i>, 2012"
         },
         "2012.12.brca": {
-            "category": ["genetics", "preprints"],
+            "category": ["genetics"],
             "authors": "U. Francke, C. Dijamco, A. K. Kiefer, N. Eriksson, B. R. Moiseff, J. Y. Tung, J. L. Mountain",
             "title": "Dealing with the unexpected: Consumer responses to direct-access <i>BRCA</i> mutation testing",
-            "citation": "<i>Under review</i>, 2012.",
+            "citation": "<i>PeerJ</i>, 2013, to appear.",
             "abstract": "Background: Inherited BRCA gene mutations convey a high risk for breast and ovarian cancer, but current guidelines limit BRCA mutation testing to women with early-onset cancer and relatives of mutation-positive cases.  Benefits and risks of providing this information directly to consumers are unknown.  Methods: To assess and quantify emotional and behavioral reactions of consumers to their 23andMe Personal Genome Service report of three BRCA mutations that are common in Ashkenazi Jews, we invited all 136 BRCA1 and BRCA2 mutation-positive individuals in the 23andMe customer database who had chosen to view their BRCA reports to participate in this IRB-approved study. We also invited 160 mutation-negative customers who were matched for age, sex and ancestry. Semi-structured phone interviews were completed for 32 mutation carriers, 16 women and 16 men, and 31 non-carriers. Questions addressed personal and family history of cancer, decision and timing of viewing the BRCA report, recollection of the result, emotional responses, perception of personal cancer risk, information sharing, and actions taken or planned.  Results: Eleven women and 14 men had received the unexpected result that they are carriers of a BRCA1 185delAG or 5382insC, or BRCA2 6174delT mutation. None of them reported extreme anxiety and four experienced moderate anxiety that was transitory. Remarkably, five women and six men described their response as neutral. Most carrier women sought medical advice and four underwent risk-reducing procedures after confirmatory mutation testing. Male carriers realized that their test results implied genetic risk for female relatives, and several of them felt considerably burdened by this fact. Sharing mutation information with family members led to screening of at least 30 relatives and identification of 13 additional carriers. Non-carriers did not report inappropriate actions, such as foregoing cancer screening. All but one of the 32 mutation-positive participants appreciated learning their BRCA mutation status.  Conclusions: Direct access to BRCA mutation tests, considered a model for high-risk actionable genetic tests of proven clinical utility, provided clear benefits to participants. The unexpected information demonstrated a cascade effect as relatives of newly identified carriers also sought testing and more mutation carriers were identified. Given the absence of evidence for serious emotional distress or inappropriate actions, broader screening of Ashkenazi Jewish women for these three BRCA mutations should be considered.",
-            "summary": ""
+            "summary": "How do people respond to learning their BRCA status via 23andMe?"
         },
         "2012.10.famhist": {
             "category": ["genetics", "flc"],
@@ -231,12 +231,12 @@
             ]
         },
         "2012.09.myopia,": {
-            "category": ["genetics", "preprints", "flc"],
+            "category": ["genetics", "flc"],
             "authors": "A. K. Kiefer, J. Y. Tung, C. B. Do, D. A. Hinds, J. L. Mountain, U. Francke, and N. Eriksson",
             "title": "Genome-wide analysis points to roles for extracellular matrix remodeling, the visual cycle, and neuronal development in myopia",
-            "citation": "<i>ArXiv preprint</i>, September 2012.",
+            "citation": "<i>PLoS Genet.</i>, to appear, 2013.",
             "abstract": "Myopia, or nearsightedness, is the most common eye disorder, resulting primarily from excess elongation of the eye. The etiology of myopia, although known to be complex, is poorly understood. Here we report the largest ever genome-wide association study (43,360 participants) on myopia in Europeans. We performed a survival analysis on age of myopia onset and identified 19 significant associations (p < 5e-8), two of which are replications of earlier associations with refractive error. These 19 associations in total explain 2.7% of the variance in myopia age of onset, and point towards a number of different mechanisms behind the development of myopia. One association is in the gene PRSS56, which has previously been linked to abnormally small eyes; one is in a gene that forms part of the extracellular matrix (LAMA2); two are in or near genes involved in the regeneration of 11-cis-retinal (RGR and RDH5); two are near genes known to be involved in the growth and guidance of retinal ganglion cells (ZIC2, SFRP1); and five are in or near genes involved in neuronal signaling or development. These novel findings point towards multiple genetic factors involved in the development of myopia and suggest that complex interactions between extracellular matrix remodeling, neuronal development, and visual signals from the retina may underlie the development of myopia in humans.",
-            "summary": "Seventeen novel associations for myopia, many of which are near genes with interesting roles in vision development.",
+            "summary": "Twenty novel associations for myopia, many of which are near genes with interesting roles in vision development.",
             "thumbnail": "myopia.png",
             "links": [
                 {"name": "arXiv", "url": "http://arxiv.org/abs/1209.2089"}
