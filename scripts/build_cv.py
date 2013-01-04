@@ -1,6 +1,7 @@
 import json
 import jinja2
 import re
+from datetime import date
 
 def parse_json(jfile):
     j = json.loads(open(jfile).read())
@@ -29,6 +30,9 @@ def parse_json(jfile):
     j['pr'] = sum(map(len,peer_years.values()))
     j['npr'] = sum(map(len,other_years.values()))
     j['firstlast'] = firstlast
+
+    j['updated'] = date.today().strftime("%B %Y")
+
     return j
 
     
