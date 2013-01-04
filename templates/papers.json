@@ -1,12 +1,12 @@
 {
     "papers": {
-        "2012.11.stretch": {
+        "2013.01.stretch": {
             "category": ["genetics", "preprints", "flc"],
             "authors": "J. Y. Tung, A.K. Kiefer, M. Mullins, U. Francke, N. Eriksson",
             "title": "Variants near elastic microfibril genes are associated with non-syndromic striae distensae",
             "citation": "<i>Under review</i>, 2012"
         },
-        "2012.12.brca": {
+        "2013.01.brca": {
             "category": ["genetics"],
             "authors": "U. Francke, C. Dijamco, A. K. Kiefer, N. Eriksson, B. R. Moiseff, J. Y. Tung, J. L. Mountain",
             "title": "Dealing with the unexpected: Consumer responses to direct-access <i>BRCA</i> mutation testing",
@@ -230,7 +230,7 @@
                 {"name": "arXiv", "url": "http://arxiv.org/abs/1209.2096"}
             ]
         },
-        "2012.09.myopia,": {
+        "2013.01.myopia,": {
             "category": ["genetics", "flc"],
             "authors": "A. K. Kiefer, J. Y. Tung, C. B. Do, D. A. Hinds, J. L. Mountain, U. Francke, and N. Eriksson",
             "title": "Genome-wide analysis points to roles for extracellular matrix remodeling, the visual cycle, and neuronal development in myopia",
