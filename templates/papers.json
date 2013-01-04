@@ -1,5 +1,29 @@
 {
     "papers": {
+        "2013.01.baldness2": {
+            "category": ["genetics"],
+            "title": "Androgenetic alopecia: identification of four new genetic risk loci and evidence for the contribution of WNT-signaling to its etiology",
+            "authors": "S. Heilmann, A. K. Kiefer, N. Fricker, D. Drichel, A. M. Hillmer, C. Herold, J. Y. Tung, N. Eriksson, S. Redler, R. C. Betz, R. Li, A. Karason, D. R. Nyholt, K. Song, S. H. Vermeulen, S. Kanoni, G. Dedoussis, N. G. Martin, L. A. Kiemeney, V. Mooser, K. Stefansson, J. B. Richards, T. Becker, F. F. Brockschmidt, D. A. Hinds, M. M. Nothen",
+            "citation": "<i>J Invest Dermatol</i>, to appear, 2013."
+        },
+        "2013.01.PDiron": {
+            "category": ["genetics", "preprints"],
+            "title": "Serum iron levels and the risk of Parkinson's disease: a Mendelian randomization study",
+            "authors": "I. Pichler, F. Del Greco M., M. Gogele, C. M. Lill, L. Bertram, C. B. Do, N. Eriksson, T. Foroud, R. H. Myers, M. Nalls, M. F. Keller, B. Benyamin, J. B. Whitfield, P. P. Pramstaller, A. A. Hicks, J. Thompson, C. Minelli",
+            "citation": "<i>Under review</i>, 2013."
+        },
+        "2013.01.boosting": {
+            "category": ["genetics", "preprints"],
+            "title": "Boosting SNP selection: an evaluation of a genome-wide SNP filter using simulated and hair morphology data",
+            "authors": "G. H. Lubke, C. Laurin, R. Walters, N. Eriksson, P. Hysi, T. D. Spector, G. W. Montgomery, D. I. Boomsma, N. G. Martin, S. E. Medland",
+            "citation": "<i>Under review</i>, 2013."
+        },
+        "2013.01.allergy": {
+            "category": ["genetics", "preprints"],
+            "title": "A meta-analysis of self-reported allergy identifies shared and allergy-specific susceptibility loci",
+            "authors": "D. A. Hinds, G. McMahon, A. K. Kiefer, C. B. Do, N. Eriksson, D. M. Evans, B. St Pourcain, S. M. Ring, J. L. Mountain, U. Francke, G. Davey-Smith, N. J. Timpson, J. Y. Tung",
+            "citation": "<i>Under review</i>, 2013."
+        },
         "2013.01.stretch": {
             "category": ["genetics", "preprints", "flc"],
             "authors": "J. Y. Tung, A.K. Kiefer, M. Mullins, U. Francke, N. Eriksson",
