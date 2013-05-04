@@ -1,28 +1,33 @@
 {
     "papers": {
-        "2013.04.PDiron": {
+        "2013.12.PDiron": {
             "category": ["genetics", "preprints"],
             "title": "Serum iron levels and the risk of Parkinson's disease: a Mendelian randomization study",
             "authors": "I. Pichler, F. Del Greco M., M. Gogele, C. M. Lill, L. Bertram, C. B. Do, N. Eriksson, T. Foroud, R. H. Myers, M. Nalls, M. F. Keller, B. Benyamin, J. B. Whitfield, P. P. Pramstaller, A. A. Hicks, J. Thompson, and C. Minelli",
             "citation": "<i>Under review</i>, 2013."
         },
-        "2013.04.boosting": {
+        "2013.12.boosting": {
             "category": ["genetics", "preprints"],
             "title": "Boosting SNP selection: an evaluation of a genome-wide SNP filter using simulated and hair morphology data",
             "authors": "G. H. Lubke, C. Laurin, R. Walters, N. Eriksson, P. Hysi, T. D. Spector, G. W. Montgomery, D. I. Boomsma, N. G. Martin, and S. E. Medland",
             "citation": "<i>Under review</i>, 2013."
         },
-        "2013.04.allergy": {
+        "2013.12.allergy": {
             "category": ["genetics", "preprints"],
             "title": "A meta-analysis of self-reported allergy identifies shared and allergy-specific susceptibility loci",
             "authors": "D. A. Hinds, G. McMahon, A. K. Kiefer, C. B. Do, N. Eriksson, D. M. Evans, B. St Pourcain, S. M. Ring, J. L. Mountain, U. Francke, G. Davey-Smith, N. J. Timpson, and J. Y. Tung",
             "citation": "<i>Under review</i>, 2013."
         },
         "2013.04.stretch": {
-            "category": ["genetics", "preprints", "flc"],
+            "category": ["genetics", "flc"],
             "authors": "J. Y. Tung, A.K. Kiefer, M. Mullins, U. Francke, and N. Eriksson",
             "title": "Variants near elastic microfibril genes are associated with non-syndromic striae distensae",
-            "citation": "<i>Under review</i>, 2013"
+            "citation": "<i>J Invest Dermatol</i>, 2013 Apr 30",
+            "links": [
+                {"name": "JID", "url": "http://dx.doi.org/10.1038/jid.2013.196"}
+                ],
+            "thumbnail": "stretch.png",
+            "summary": "Variants near the elastin gene influence stretch marks"
         },
         "2013.03.myopia,": {
             "category": ["genetics", "flc"],
