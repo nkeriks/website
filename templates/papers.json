@@ -34,6 +34,7 @@
             "authors": "A. K. Kiefer, J. Y. Tung, C. B. Do, D. A. Hinds, J. L. Mountain, U. Francke, and N. Eriksson",
             "title": "Genome-wide analysis points to roles for extracellular matrix remodeling, the visual cycle, and neuronal development in myopia",
             "citation": "<i>PLoS Genet.</i>, 9(2): e1003299.",
+            "pubmed": "23468642",
             "abstract": "Myopia, or nearsightedness, is the most common eye disorder, resulting primarily from excess elongation of the eye. The etiology of myopia, although known to be complex, is poorly understood. Here we report the largest ever genome-wide association study (45,771 participants) on myopia in Europeans. We performed a survival analysis on age of myopia onset and identified 22 significant associations (p<5e-8), two of which are replications of earlier associations with refractive error. Ten of the 20 novel associations identified replicate in a separate cohort of 8,323 participants who reported if they had developed myopia before age 10. These 22 associations in total explain 2.9% of the variance in myopia age of onset and point toward a number of different mechanisms behind the development of myopia. One association is in the gene PRSS56, which has previously been linked to abnormally small eyes; one is in a gene that forms part of the extracellular matrix (LAMA2); two are in or near genes involved in the regeneration of 11-cis-retinal (RGR and RDH5); two are near genes known to be involved in the growth and guidance of retinal ganglion cells (ZIC2, SFRP1); and five are in or near genes involved in neuronal signaling or development. These novel findings point toward multiple genetic factors involved in the development of myopia and suggest that complex interactions between extracellular matrix remodeling, neuronal development, and visual signals from the retina may underlie the development of myopia in humans.",
             "summary": "Twenty-two associations for myopia age of onset, many of which are near genes with interesting roles in vision development.",
             "thumbnail": "myopia.png",
@@ -46,6 +47,7 @@
             "category": ["genetics"],
             "authors": "U. Francke, C. Dijamco, A. K. Kiefer, N. Eriksson, B. R. Moiseff, J. Y. Tung, and J. L. Mountain",
             "title": "Dealing with the unexpected: Consumer responses to direct-access <i>BRCA</i> mutation testing",
+            "pubmed": "23638402",
             "citation": "<i>PeerJ</i>, 1:e8.",
             "links": [
                 {"name": "PeerJ", "url": "https://peerj.com/articles/8"}
