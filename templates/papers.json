@@ -250,9 +250,10 @@
             "summary": "We show how to analyze the robustness of phylogenies to perturbations in alignment parameters.",
             "pubmed": "21409513",
             "thumbnail": "parametric.png",
-            "links": []
+            "links": [
+                { "name": "BMB", "url": "http://link.springer.com/article/10.1007%2Fs11538-010-9610-8"}
+            ]
         },
-    
         "2011.04.shorah": {
             "category": ["genetics", "sequencing"],
             "authors": "O. Zagordi, A. Bhattacharya, N. Eriksson, and N. Beerenwinkel",
