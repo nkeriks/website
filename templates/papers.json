@@ -1,12 +1,6 @@
 {
     "papers": {
-        "2013.12.boosting": {
-            "category": ["genetics", "preprints"],
-            "title": "Gradiant Boosting as a SNP filter: an evaluation using simulated and hair morphology data",
-            "authors": "G. H. Lubke, C. Laurin, R. Walters, N. Eriksson, P. Hysi, T. D. Spector, G. W. Montgomery, D. I. Boomsma, N. G. Martin, and S. E. Medland",
-            "citation": "<i>Journal of Data Mining in Genomics & Proteomics</i>, to appear, 2013."
-        },
-        "2013.11.IBD": {
+        "2014.12.IBD": {
             "category": ["genetics", "preprints"],
             "title": "Reducing pervasive false positive identical-by-descent segments detected by large-scale pedigree analysis",
             "authors": "E.Y. Durand, N. Eriksson, C.Y. McLean",
@@ -18,6 +12,25 @@
                 {"name": "arXiv", "url": "http://arxiv.org/abs/1311.1120"}
                 ]
         },
+        "2013.12.hayfever": {
+            "category": ["genetics"],
+            "title": "Genome-wide association analysis identifies 11 risk variants associated with the asthma with hay fever phenotype",
+            "authors": "M. A. R. Ferreira, M. C. Matheson, C. S. Tang, R. Granell, W. Ang, J. Hui, A. K. Kiefer, D. L. Duffy, S. Baltic, P. Danoy, M. Bui, L. Price, P. D. Sly, N. Eriksson, P. A. Madden, M. J. Abramson, P. G. Holt, A. C. Heath, M. Hunter, B. Musk, C. F. Robertson, P. Le Souef, W. Montgomery, A.J. Henderson, J. Y. Tung, S. C. Dharmage, M. A. Brown, A. James, P. J. Thompson, C. Pennell, N. G. Martin, D. M.  Evans, D. A. Hinds, J. L. Hopper",
+            "citation": "<i>Journal of Allergy and Clinical Immunology</i>, 31 December 2013",
+            "links": [{"name": "JACI", "url": "http://dx.doi.org/10.1016/j.jaci.2013.10.030"},
+                      {"name": "ScienceDirect", "url": "http://www.sciencedirect.com/science/article/pii/S0091674913016436"}],
+            "thumbnail": "hayfever.png",
+            "summary": "Meta-analysis of hay fever with asthma"
+        },
+        "2013.12.boosting": {
+            "category": ["genetics"],
+            "title": "Gradiant Boosting as a SNP filter: an evaluation using simulated and hair morphology data",
+            "authors": "G. H. Lubke, C. Laurin, R. Walters, N. Eriksson, P. Hysi, T. D. Spector, G. W. Montgomery, D. I. Boomsma, N. G. Martin, and S. E. Medland",
+            "citation": "<i>Journal of Data Mining in Genomics & Proteomics</i>, 2013, 4:4",
+            "links": [{"name": "pdf", "url": "http://www.tweelingenregister.org/nederlands/verslaggeving/NTR-publicaties_2013/Lubke_JDMGP_2013.pdf"}],
+            "thumbnail": "gradiant.png",
+            "summary": "Gradiant boosting applied to GWAS data"
+        },
         "2013.06.allergy": {
             "category": ["genetics"],
             "title": "A genome-wide association meta-analysis of self-reported allergy identifies shared and allergy-specific susceptibility loci",
@@ -25,6 +38,7 @@
             "citation": "<i>Nat Genet</i>, 2013 June 30.",
             "thumbnail": "allergy.png",
             "summary": "Sixteen associations with allergies, eight of them shared with asthma",
+            "pubmed": "23817569",
             "abstract": "Allergic disease is very common and carries substantial public-health burdens. We conducted a meta-analysis of genome-wide associations with self-reported cat, dust-mite and pollen allergies in 53,862 individuals. We used generalized estimating equations to model shared and allergy-specific genetic effects. We identified 16 shared susceptibility loci with association P < 5e-8, including 8 loci previously associated with asthma, as well as 4p14 near TLR1, TLR6 and TLR10 (rs2101521, P = 5.3e-21); 6p21.33 near HLA-C and MICA (rs9266772, P = 3.2e-12); 5p13.1 near PTGER4 (rs7720838, P = 8.2e-11); 2q33.1 in PLCL1 (rs10497813, P = 6.1e-10), 3q28 in LPP (rs9860547, P = 1.2e-9); 20q13.2 in NFATC2 (rs6021270, P = 6.9e-9), 4q27 in ADAD1 (rs17388568, P = 3.9e-8); and 14q21.1 near FOXA1 and TTC6 (rs1998359, P = 4.8e-8). We identified one locus with substantial evidence of differences in effects across allergies at 6p21.32 in the class II human leukocyte antigen (HLA) region (rs17533090, P = 1.7e-12), which was strongly associated with cat allergy. Our study sheds new light on the shared etiology of immune and autoimmune disease.",
             "links": [
                 {"name": "NG", "url": "http://dx.doi.org/10.1038/ng.2686"}
@@ -51,6 +65,7 @@
             "links": [
                 {"name": "JID", "url": "http://dx.doi.org/10.1038/jid.2013.196"}
                 ],
+            "pubmed": "23633020",
             "thumbnail": "stretch.png",
             "summary": "Variants near the elastin gene influence stretch marks"
         },
@@ -125,6 +140,7 @@
             "authors": "C. B. Do, D. A. Hinds, U. Francke, and N. Eriksson",
             "title": "Comparison of Family History and SNPs for Predicting Risk of Complex Disease", 
             "citation": "<i>PLoS Genet.</i>, 8(10): e1002973, October 2012.",
+            "pubmed": "23071447",
             "abstract": "The clinical utility of family history and genetic tests is generally well understood for simple Mendelian disorders and rare subforms of complex diseases that are directly attributable to highly penetrant genetic variants. However, little is presently known regarding the performance of these methods in situations where disease susceptibility depends on the cumulative contribution of multiple genetic factors of moderate or low penetrance. Using quantitative genetic theory, we develop a model for studying the predictive ability of family history and single nucleotide polymorphism (SNP)-based methods for assessing risk of polygenic disorders. We show that family history is most useful for highly common, heritable conditions (e.g., coronary artery disease), where it explains roughly 20%-30% of disease heritability, on par with the most successful SNP models based on associations discovered to date. In contrast, we find that for diseases of moderate or low frequency (e.g., Crohn disease) family history accounts for less than 4% of disease heritability, substantially lagging behind SNPs in almost all cases. These results indicate that, for a broad range of diseases, already identified SNP associations may be better predictors of risk than their family history-based counterparts, despite the large fraction of missing heritability that remains to be explained. Our model illustrates the difficulty of using either family history or SNPs for standalone disease prediction. On the other hand, we show that, unlike family history, SNP-based tests can reveal extreme likelihood ratios for a relatively large percentage of individuals, thus providing potentially valuable adjunctive evidence in a differential diagnosis.",
             "summary": "We develop models based on quantitative genetic theory to analyze and compare family history and SNP-based risk prediction models.",
             "thumbnail": "famhist.png",
