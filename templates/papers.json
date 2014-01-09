@@ -304,7 +304,8 @@
             "pubmed": "21521499",
             "thumbnail": "shorah.png",
             "links": [
-                {"name": "BMC", "url": "http://www.biomedcentral.com/1471-2105/12/119"}
+                {"name": "BMC", "url": "http://www.biomedcentral.com/1471-2105/12/119", 
+                "name": "Software", "url": "http://www.silva.bsse.ethz.ch/cbg/software/shorah"}
             ]
         },
         "2010ttam": {
