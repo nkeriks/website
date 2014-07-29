@@ -12,8 +12,19 @@
                 {"name": "biorxiv", "url": "http://biorxiv.org/content/early/2014/02/04/002386"}
                 ]
         },
+        "2014.07.PD": {
+            "category": ["genetics"],
+            "title": "Large-scale meta-analysis of genome-wide association data identifies six new risk loci for Parkinson's disease",
+            "authors": "M. A. Nalls,   N. Pankratz,    C. M. Lill,   C. B. Do,    D. G. Hernandez,   M. Saad,   A. L. DeStefano,  E. Kara,   J. Bras,  M. Sharma,    C. Schulte,    M. F. Keller,   S. Arepalli,   C. Letson, C. Edsall,  H. Stefansson,  X. Liu, H. Pliner,  J. H. Lee,   R. Cheng, International Parkinson's Disease Genomics Consortium (IPDGC),  Parkinson's Study Group (PSG) Parkinson's Research: The Organized GENetics Initiative (PROGENI),    23andMe,    GenePD, NeuroGenetics Research Consortium (NGRC),   Hussman Institute of Human Genomics (HIHG), The Ashkenazi Jewish Dataset Investigator,  Cohorts for Health and Aging Research in Genetic Epidemiology (CHARGE), North American Brain Expression Consortium (NABEC), United Kingdom Brain Expression Consortium (UKBEC), Greek Parkinson's Disease Consortium,   Alzheimer Genetic Analysis Group,   M. A. Ikram,  J. P. A. Ioannidis, G. M Hadjigeorgiou, J. C. Bis, M. Martinez, J. S. Perlmutter,  A. Goate,   K. Marder,   B. Fiske, M. Sutherland,   G. Xiromerisiou,   R. H. Myers,    L. N. Clark,   K. Stefansson,    J. A. Hardy,   P. Heutink,  H. Chen,   N. W. Wood,    H. Houlden, H. Payami,   A. Brice,   W. K. Scott,    T. Gasser,  L. Bertram,   N. Eriksson,  T. Foroud, A. B. Singleton",
+            "citation": "<i>Nature Genetics</i> (2014) doi:10.1038/ng.3043",
+            "summary": "Six new loci for Parkinson's disease in the largest meta-analysis to date",
+            "thumbnail": "mega-meta.png",
+            "links": [
+                {"name": "NG", "url": "http://www.nature.com/ng/journal/vaop/ncurrent/full/ng.3043.html"}
+                ]
+        },
         "2014.05.IBD": {
-            "category": ["genetics", "preprints"],
+            "category": ["genetics"],
             "title": "Reducing pervasive false positive identical-by-descent segments detected by large-scale pedigree analysis",
             "authors": "E. Y. Durand, N. Eriksson, C. Y. McLean",
             "abstract": "Analysis of genomic segments shared identical-by-descent (IBD) between individuals is fundamental to many genetic applications, from demographic inference to estimating the heritability of diseases, but IBD detection accuracy in non-simulated data is largely unknown. In principle, it can be evaluated using known pedigrees, as IBD segments are by definition inherited without recombination down a family tree. We extracted 25,432 genotyped European individuals containing 2,952 father-mother-child trios from the 23andMe, Inc. dataset. We then used GERMLINE, a widely used IBD detection method, to detect IBD segments within this cohort. Exploiting known familial relationships, we identified a false positive rate over 67% for 2–4 centiMorgan (cM) segments, in sharp contrast with accuracies reported in simulated data at these sizes. Nearly all false positives arose from the allowance of haplotype switch errors when detecting IBD, a necessity for retrieving long (> 6 cM) segments in the presence of imperfect phasing. We introduce HaploScore, a novel, computationally efficient metric that scores IBD segments proportional to the number of switch errors they contain. Applying HaploScore filtering to the IBD data at a precision of 0.8 produced a 13-fold increase in recall when compared to length-based filtering. We replicate the false IBD findings and demonstrate the generalizability of HaploScore to alternative data sources using an independent cohort of 555 European individuals from the 1000 Genomes project. HaploScore can improve the accuracy of segments reported by any IBD detection method, provided that estimates of the genotyping error rate and switch error rate are available.",
