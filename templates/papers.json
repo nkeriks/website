@@ -1,5 +1,17 @@
 {
     "papers": {
+        "2014.12.crossover": {
+            "category": ["genetics", "preprints"],
+            "title": "Escape from crossover interference increases with maternal age", 
+            "authors": "C. L. Campbell, N. A. Furlotte, N. Eriksson, D. A. Hinds, A. Auton",
+            "abstract": "Recombination plays a fundamental role in meiosis, ensuring the proper segregation of chromosomes and contributing to genetic diversity by generating novel combinations of alleles. Using data derived from direct-to-consumer genetic testing, we investigated patterns of recombination in over 4,200 families. Our analysis revealed a number of sex differences in the distribution of recombination. We find the fraction of male events occurring within hotspots to be 4.6% higher than for females. We confirm that the recombination rate increases with maternal age, while hotspot usage decreases, with no such effects observed in males. Finally, we show that the placement of female recombination events becomes increasingly deregulated with maternal age, with an increasing fraction of events appearing to escape crossover interference.",
+            "citation": "<i>Submitted</i>, 2014.",
+            "summary": "Analysis of recombination rate and hotspot usage with respect to age.",
+            "thumbnail": "crossover.png",
+            "links": [
+                {"name": "arxiv", "url": "http://arxiv.org/abs/1408.5517"}
+                ]
+        },
         "2014.12.motionsick": {
             "category": ["genetics", "preprints", "flc"],
             "title": "Genetic variants associated with motion sickness point to roles for inner ear development, neurological processes, and glucose homeostasis",
@@ -10,6 +22,30 @@
             "thumbnail": "motionsick.png",
             "links": [
                 {"name": "biorxiv", "url": "http://biorxiv.org/content/early/2014/02/04/002386"}
+                ]
+        },
+        "2014.11.robust": {
+            "category": ["genetics"],
+            "title": "Replicability and Robustness of Genome-Wide-Association Studies for Behavioral Traits",
+            "authors": "C. A. Rietveld, D. Conley, N. Eriksson, T. Esko, S. E. Medland, A. A. E. Vinkhuyzen, J. Yang, J. D. Boardman, C. F. Chabris, C. T. Dawes, B. W. Domingue, D. A. Hinds, M. Johannesson, A. K. Kiefer, D. Laibson, P. K. E. Magnusson, J. L. Mountain, S. Oskarsson, O. Rostapshova, A. Teumer, J. Y. Tung, P. M. Visscher, D. J. Benjamin, D. Cesarini, P. D. Koellinger",
+            "abstract": "A recent genome-wide-association study of educational attainment identified three single-nucleotide polymorphisms (SNPs) whose associations, despite their small effect sizes (each R^2 = 0.02%), reached genome-wide significance (p < 5 x 10−8) in a large discovery sample and were replicated in an independent sample (p < .05). The study also reported associations between educational attainment and indices of SNPs called 'polygenic scores.' In three studies, we evaluated the robustness of these findings. Study 1 showed that the associations with all three SNPs were replicated in another large (N = 34,428) independent sample. We also found that the scores remained predictive (R^2 = 2%) in regressions with stringent controls for stratification (Study 2) and in new within-family analyses (Study 3). Our results show that large and therefore well-powered genome-wide-association studies can identify replicable genetic associations with behavioral traits. The small effect sizes of individual SNPs are likely to be a major contributing factor explaining the striking contrast between our results and the disappointing replication record of most candidate-gene studies.",
+            "citation": "<i>Psychological Science,</i> Nov 2014, vol. 25, no. 11, 1975-1986.",
+            "summary": "Replication of educational attainment associations",
+            "thumbnail": "educational.png",
+            "links": [
+                {"name": "Psych Sci", "url": "http://pss.sagepub.com/content/25/11/1975.short"}
+                ]
+        },
+        "2014.08.neurox": {
+            "category": ["genetics"],
+            "title": "NeuroX, a Fast and Efficient Genotyping Platform for Investigation of Neurodegenerative Diseases",
+            "authors": "M. A. Nalls, J. Bras, D. G. Hernandez, M. F. Keller, E. Majounie, A. E. Renton, M. Saad, I. Jansen, R. Guerreiro, S. Lubbe, V. Plagnol, J. R. Gibbs, C. Schulte, N. Pankratz, M. Sutherland, L. Bertram, C. M. Lill, A. L. DeStefano, T. Faroud, N. Eriksson, J. Y. Tung, C. Edsall, N. Nichols, J. Brooks, S. Arepalli, H. Pliner, C. Letson, P. Heutink, M. Martinez, T. Gasser, B. J. Traynor, N. Wood, J. Hardy, A. B. Singleton",
+            "abstract": "Our objective was to design a genotyping platform that would allow rapid genetic characterization of samples in the context of genetic mutations and risk factors associated with common neurodegenerative diseases. The platform needed to be relatively affordable, rapid to deploy, and use a common and accessible technology. Central to this project, we wanted to make the content of the platform open to any investigator without restriction. In designing this array we prioritized a number of types of genetic variability for inclusion, such as known risk alleles, disease-causing mutations, putative risk alleles, and other functionally important variants. The array was primarily designed to allow rapid screening of samples for disease-causing mutations and large population studies of risk factors. Notably, an explicit aim was to make this array widely available to facilitate data sharing across and within diseases. The resulting array, NeuroX, is a remarkably cost and time effective solution for high-quality genotyping. NeuroX comprises a backbone of standard Illumina exome content of approximately 240,000 variants, and over 24,000 custom content variants focusing on neurologic diseases. Data are generated at approximately $50–$60 per sample using a 12-sample format chip and regular Infinium infrastructure; thus, genotyping is rapid and accessible to many investigators. Here, we describe the design of NeuroX, discuss the utility of NeuroX in the analyses of rare and common risk variants, and present quality control metrics and a brief primer for the analysis of NeuroX derived data.",
+            "citation": "<i>Neurobiology of Aging,</i> 4 Aug 2014.",
+            "summary": "A cheap genotyping chip for neurodegenerative disease research.",
+            "thumbnail": "neuroX.png",
+            "links": [
+                {"name": "DOI", "url": "http://dx.doi.org/10.1016/j.neurobiolaging.2014.07.028"}
                 ]
         },
         "2014.07.PD": {
