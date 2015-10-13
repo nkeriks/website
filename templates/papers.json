@@ -1,5 +1,34 @@
 {
     "papers": {
+        "2015.09.moocs": {
+            "category": ["education", "book"],
+            "title": "Who's Benefiting from MOOCs, and Why",
+            "authors": "C. Zhenghao, B. Alcorn, G. Christensen, N. Eriksson, D. Koller, E.J. Emanuel",
+            "abstract": "",
+            "citation": "<i>Harvard Business Review</i>, September 22, 2015.",
+            "summary": "Among learners who complete courses, MOOCs do have a real impact.",
+            "thumbnail": "mooc.png",
+            "links": [
+                {"name": "Harvard Business Review", "url": "https://hbr.org/2015/09/whos-benefiting-from-moocs-and-why"}],
+            "press": [
+                {"name": "Financial Times", "url": "http://www.ft.com/cms/s/2/fe42ba48-5d31-11e5-9846-de406ccb37f2.html#axzz3mTzTuer2"},
+                {"name": "USA Today", "url": "http://www.usatoday.com/story/tech/2015/09/22/coursera-survey-finds-its-courses-boon-emerging-economy-workers/72563786/"},
+                {"name": "Inc.", "url": "http://www.inc.com/graham-winfrey/how-online-courses-can-help-entrepreneurs-close-the-skills-gap.html"},
+                {"name": "Chronicle of Higher Education", "url": "http://chronicle.com/blogs/wiredcampus/what-the-results-of-a-survey-of-coursera-students-mean-for-online-learning/57401"}
+            ]
+        },
+        "2015.06.virtualPD": {
+            "category": ["genetics"],
+            "title": "Virtual research visits and direct-to-consumer genetic testing in Parkinson’s disease", 
+            "authors": "E.R. Dorsey, K.C. Darwin, S. Mohammed, S. Donohue, A. Tethal, M.A. Achey, S. Ward, E. Caughey, E.D. Conley, N. Eriksson, B. Ravina",
+            "abstract": "",
+            "citation": "<i>Digital Health</i>, Jun 2015.",
+            "summary": "In depth, virtual visits of Parkinson's disease patients.",
+            "thumbnail": "virtual_pd.png",
+            "links": [
+                {"name": "Digital Health", "url": "http://dhj.sagepub.com/content/1/2055207615592998"}
+                ]
+        },
         "2015.03.rosacea": {
             "category": ["genetics"],
             "title": "Assessment of the Genetic Basis of Rosacea by Genome-Wide Association Study", 
@@ -35,7 +64,8 @@
             "thumbnail": "motionsick.png",
             "links": [
                 {"name": "HMG", "url": "http://hmg.oxfordjournals.org/content/early/2015/02/17/hmg.ddv028.full"},
-                {"name": "biorxiv", "url": "http://biorxiv.org/content/early/2014/02/04/002386"}
+                {"name": "biorxiv", "url": "http://biorxiv.org/content/early/2014/02/04/002386"},
+                {"name": "Vox", "url": "http://www.vox.com/2015/8/9/9121583/motion-sickness-carsick"}
                 ]
         },
         "2014.11.robust": {
@@ -70,7 +100,7 @@
             "summary": "Six new loci for Parkinson's disease in the largest meta-analysis to date",
             "thumbnail": "mega-meta.png",
             "links": [
-                {"name": "NG", "url": "http://www.nature.com/ng/journal/vaop/ncurrent/full/ng.3043.html"}
+                {"name": "Nature Genetics", "url": "http://www.nature.com/ng/journal/vaop/ncurrent/full/ng.3043.html"}
                 ]
         },
         "2014.05.IBD": {
@@ -115,7 +145,7 @@
             "pubmed": "23817569",
             "abstract": "Allergic disease is very common and carries substantial public-health burdens. We conducted a meta-analysis of genome-wide associations with self-reported cat, dust-mite and pollen allergies in 53,862 individuals. We used generalized estimating equations to model shared and allergy-specific genetic effects. We identified 16 shared susceptibility loci with association P < 5e-8, including 8 loci previously associated with asthma, as well as 4p14 near TLR1, TLR6 and TLR10 (rs2101521, P = 5.3e-21); 6p21.33 near HLA-C and MICA (rs9266772, P = 3.2e-12); 5p13.1 near PTGER4 (rs7720838, P = 8.2e-11); 2q33.1 in PLCL1 (rs10497813, P = 6.1e-10), 3q28 in LPP (rs9860547, P = 1.2e-9); 20q13.2 in NFATC2 (rs6021270, P = 6.9e-9), 4q27 in ADAD1 (rs17388568, P = 3.9e-8); and 14q21.1 near FOXA1 and TTC6 (rs1998359, P = 4.8e-8). We identified one locus with substantial evidence of differences in effects across allergies at 6p21.32 in the class II human leukocyte antigen (HLA) region (rs17533090, P = 1.7e-12), which was strongly associated with cat allergy. Our study sheds new light on the shared etiology of immune and autoimmune disease.",
             "links": [
-                {"name": "NG", "url": "http://dx.doi.org/10.1038/ng.2686"}
+                {"name": "Nature Genetics", "url": "http://dx.doi.org/10.1038/ng.2686"}
             ]
         },
         "2013.06.PDiron": {
