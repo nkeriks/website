@@ -1,5 +1,19 @@
 {
     "papers": {
+        "2016.02.morning": {
+            "category": ["genetics"],
+            "title": "GWAS of 89,283 individuals identifies genetic variants associated with self-reporting of being a morning person",
+            "authors": "Y. Hu, A. Shmygelska, D. Tran, N. Eriksson, J.Y. Tung, D.A. Hinds",
+            "abstract": "Circadian rhythms are a nearly universal feature of living organisms and affect almost every biological process. Our innate preference for mornings or evenings is determined by the phase of our circadian rhythms. We conduct a genome-wide association analysis of self-reported morningness, followed by analyses of biological pathways and related phenotypes. We identify 15 significantly associated loci, including seven near established circadian genes (rs12736689 near RGS16, P=7.0 x 10−18; rs9479402 near VIP, P=3.9 x 10−11; rs55694368 near PER2, P=2.6 x 10−9; rs35833281 near HCRTR2, P=3.7 x 10−9; rs11545787 near RASD1, P=1.4 x 10−8; rs11121022 near PER3, P=2.0 x 10−8; rs9565309 near FBXL3, P=3.5 x 10−8. Circadian and phototransduction pathways are enriched in our results. Morningness is associated with insomnia and other sleep phenotypes; and is associated with body mass index and depression but we did not find evidence for a causal relationship in our Mendelian randomization analysis. Our findings reinforce current understanding of circadian biology and will guide future studies.",
+            "citation": "<i>Nature Communications</i> 7, Article number: 10448, Feb 2016.",
+            "summary": "On the genetics of circadian rhythms",
+            "thumbnail": "morning.png",
+            "links": [
+                {"name": "Nature Communications", "url": "http://nature.com/articles/doi:10.1038/ncomms10448"}],
+            "press": [
+                {"name": "The Verge", "url": "http://www.theverge.com/2016/2/2/10893994/23andme-morning-person-dna-genes"}
+            ]
+        },
         "2015.09.moocs": {
             "category": ["education", "book"],
             "title": "Who's Benefiting from MOOCs, and Why",
