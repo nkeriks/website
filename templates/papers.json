@@ -5,10 +5,11 @@
             "title": "Genome-wide association and HLA region fine-mapping studies identify susceptibility loci for multiple common infections",
             "authors": " C. Tian, B.S Hromatka, A.K Kiefer, N. Eriksson, S. Noble, J.Y Tung, D.A. Hinds",
             "abstract": "We performed 23 genome-wide association studies for common infections and infection-associated procedures, including chickenpox, shingles, cold sores, mononucleosis, mumps, hepatitis B, plantar warts, positive tuberculosis test results, strep throat, scarlet fever, pneumonia, bacterial meningitis, yeast infections, urinary tract infections, tonsillectomy, childhood ear infections, myringotomy, measles, hepatitis A, rheumatic fever, common colds, rubella and chronic sinus infection, in over 200,000 individuals of European ancestry. For many infections, we detect genome-wide significant (P&lt;5x10 -8 ) associations in genes with key roles in acquired and innate immunity and in regulation of embryonic development. Eleven missense mutations were identified including two (FUT2 and TBX1) that were implicated in multiple infections. We applied fine-mapping analysis to dissect associations in the human leukocyte antigen region, which suggested important roles of specific amino acid polymorphisms in the antigen-binding clefts. Our findings provide an important step toward dissecting the host genetic architecture of response to common infections.",
-            "citation": "<i>bioRxiv</i> (2016)",
+            "citation": "<i>Nat Commun.</i> 2017; 8; 599",
             "summary": "Many links between the HLA and infectious disease",
             "thumbnail": "hla_infectious.png",
             "links": [
+                {"name": "Nature Communications", "url": "http://dx.doi.org/10.1038/s41467-017-00257-5"},
                 {"name": "bioRxiv", "url": "http://www.biorxiv.org/content/early/2016/09/09/073056"}]
         },
         "2017.06.adhd_sex": {
