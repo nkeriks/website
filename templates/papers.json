@@ -1,5 +1,60 @@
 {
     "papers": {
+
+        "2020.09.handedness": {
+            "category": ["genetics"],
+            "title": "Genome-wide association study identifies 48 common genetic variants associated with handedness",
+            "authors": "Gabriel Cuellar-Partida, Joyce Y. Tung, N. Eriksson, Eva Albrecht, Fazil Aliev, Ole A. Andreassen, Inês Barroso, Jacques S. Beckmann, Marco P. Boks, Dorret I. Boomsma, Heather A. Boyd, Monique M. B. Breteler, Harry Campbell, Daniel I. Chasman, Lynn F. Cherkas, Gail Davies, Eco J. C. de Geus, Ian J. Deary, Panos Deloukas, Danielle M. Dick, David L. Duffy, Johan G. Eriksson, Tõnu Esko, Bjarke Feenstra, Frank Geller, Christian Gieger, Ina Giegling, Scott D. Gordon, Jiali Han, Thomas F. Hansen, Annette M. Hartmann, Caroline Hayward, Kauko Heikkilä, Andrew A. Hicks, Joel N. Hirschhorn, Jouke-Jan Hottenga, Jennifer E. Huffman, Liang-Dar Hwang, M. Arfan Ikram, Jaakko Kaprio, John P. Kemp, Kay-Tee Khaw, Norman Klopp, Bettina Konte, Zoltan Kutalik, Jari Lahti, Xin Li, Ruth J. F. Loos, Michelle Luciano, Sigurdur H. Magnusson, Massimo Mangino, Pedro Marques-Vidal, Nicholas G. Martin, Wendy L. McArdle, Mark I. McCarthy, Carolina Medina-Gomez, Mads Melbye, Scott A. Melville, Andres Metspalu, Lili Milani, Vincent Mooser, Mari Nelis, Dale R. Nyholt, Kevin S. O’Connell, Roel A. Ophoff, Cameron Palmer, Aarno Palotie, Teemu Palviainen, Guillaume Pare, Lavinia Paternoster, Leena Peltonen, Brenda W. J. H. Penninx, Ozren Polasek, Peter P. Pramstaller, Inga Prokopenko, Katri Raikkonen, Samuli Ripatti, Fernando Rivadeneira, Igor Rudan, Dan Rujescu, Johannes H. Smit, George Davey Smith, Jordan W. Smoller, Nicole Soranzo, Tim D. Spector, Beate St Pourcain, John M. Starr, Hreinn Stefánsson, Stacy Steinberg, Maris Teder-Laving, Gudmar Thorleifsson, Kári Stefánsson, Nicholas J. Timpson, André G. Uitterlinden, Cornelia M. van Duijn, Frank J. A. van Rooij, Jaqueline M. Vink, Peter Vollenweider, Eero Vuoksimaa, Gérard Waeber, Nicholas J. Wareham, Nicole Warrington, Dawn Waterworth, Thomas Werge, H.-Erich Wichmann, Elisabeth Widen, Gonneke Willemsen, Alan F. Wright, Margaret J. Wright, Mousheng Xu, Jing Hua Zhao, Peter Kraft, David A. Hinds, Cecilia M. Lindgren, Reedik Mägi, Benjamin M. Neale, David M. Evans, and Sarah E. Medland ",
+            "abstract": "",
+            "citation": "<i>Nature Human Behaviour</i> (2020)",
+            "summary": "A huge GWAS of handedness",
+            "thumbnail": "hand.png",
+            "links": [{"name": "Nature Human Behaviour", "url": "https://www.nature.com/articles/s41562-020-00956-y"}, {"name": "bioarxiv", "url": "https://www.biorxiv.org/content/10.1101/831321v3"}]
+        },
+
+        "2019.04.aging": {
+            "category": ["genetics"],
+            "title": "Inferring Multidimensional Rates of Aging from Cross-Sectional Data",
+            "authors": "E. Pierson, P.W. Koh, T. Hashimoto, D. Koller, J. Leskovec, N. Eriksson, and P. Liang",
+            "abstract": "Modeling how individuals evolve over time is a fundamental problem in the natural and social sciences. However, existing datasets are often cross-sectional with each individual observed only once, making it impossible to apply traditional time-series methods. Motivated by the study of human aging, we present an interpretable latent-variable model that learns temporal dynamics from cross-sectional data. Our model represents each individual’s features over time as a nonlinear function of a low-dimensional, linearly-evolving latent state. We prove that when this nonlinear function is constrained to be order-isomorphic, the model family is identifiable solely from cross-sectional data provided the distribution of time-independent variation is known. On the UK Biobank human health dataset, our model reconstructs the observed data while learning interpretable rates of aging associated with diseases, mortality, and aging risk factors.",
+            "citation": "<i>Proc Mach Learn Res.</i> 2019 Apr; 89: 97–107.",
+            "summary": "Machine learning for inferring rates of aging",
+            "thumbnail": "long_rates.png",
+            "links": [{"name": "PMC", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6752884/"}]
+        },
+
+        "2018.08.pdself": {
+            "category": ["genetics"],
+            "title": "Self-report data as a tool for subtype identification in genetically-defined Parkinson’s disease",
+            "authors": "A.R. Winslow, C.L. Hyde, J.B. Wilk, N. Eriksson, P. Cannon, M.R. Miller, W.D. Hirst",
+            "abstract": "",
+            "citation": "<i>Scientific Reports</i> volume 8, Article number: 12992 (2018)",
+            "summary": "Validation of self-reported PD data",
+            "thumbnail": "pd_self.png",
+            "links": [{"name": "Scientific Reports", "url": "https://www.nature.com/articles/s41598-018-30843-6"}]
+        },
+
+        "2018.06.brain": {
+            "category": ["genetics"],
+            "title": "Analysis of shared heritability in common disorders of the brain",
+            "authors": "Verneri Anttila, Brendan Bulik-Sullivan, Hilary K Finucane, Raymond K Walters, Jose Bras, Laramie Duncan, Valentina Escott-Price, Guido J Falcone, Padhraig Gormley, Rainer Malik, Nikolaos A Patsopoulos, Stephan Ripke, Zhi Wei, Dongmei Yu, Phil H Lee, Patrick Turley, Benjamin Grenier-Boley, Vincent Chouraki, Yoichiro Kamatani, Claudine Berr, Luc Letenneur, Didier Hannequin, Philippe Amouyel, Anne Boland, Jean-François Deleuze, Emmanuelle Duron, Badri N Vardarajan, Christiane Reitz, Alison M Goate, Matthew J Huentelman, M Ilyas Kamboh, Eric B Larson, Ekaterina Rogaeva, Peter St George-Hyslop, Hakon Hakonarson, Walter A Kukull, Lindsay A Farrer, Lisa L Barnes, Thomas G Beach, F Yesim Demirci, Elizabeth Head, Christine M Hulette, Gregory A Jicha, John SK Kauwe, Jeffrey A Kaye, James B Leverenz, Allan I Levey, Andrew P Lieberman, Vernon S Pankratz, Wayne W Poon, Joseph F Quinn, Andrew J Saykin, Lon S Schneider, Amanda G Smith, Joshua A Sonnen, Robert A Stern, Vivianna M Van Deerlin, Linda J Van Eldik, Denise Harold, Giancarlo Russo, David C Rubinsztein, Anthony Bayer, Magda Tsolaki, Petra Proitsi, Nick C Fox, Harald Hampel, Michael J Owen, Simon Mead, Peter Passmore, Kevin Morgan, Markus M Nöthen, Jonathan M Schott, Martin Rossor, Michelle K Lupton, Per Hoffmann, Johannes Kornhuber, Brian Lawlor, Andrew Mcquillin, Ammar Al-Chalabi, Joshua C Bis, Agustin Ruiz, Mercè Boada, Sudha Seshadri, Alexa Beiser, Kenneth Rice, Sven J van der Lee, Philip L De Jager, Daniel H Geschwind, Matthias Riemenschneider, Steffi Riedel-Heller, Jerome I Rotter, Gerhard Ransmayr, Bradley T Hyman, Carlos Cruchaga, Montserrat Alegret, Bendik Winsvold, Priit Palta, Kai-How Farh, Ester Cuenca-Leon, Nicholas Furlotte, Tobias Kurth, Lannie Ligthart, Gisela M Terwindt, Tobias Freilinger, Caroline Ran, Scott D Gordon, Guntram Borck, Hieab HH Adams, Terho Lehtimäki, Juho Wedenoja, Julie E Buring, Markus Schürks, Maria Hrafnsdottir, Jouke-Jan Hottenga, Brenda Penninx, Ville Artto, Mari Kaunisto, Salli Vepsäläinen, Nicholas G Martin, Grant W Montgomery, Mitja I Kurki, Eija Hämäläinen, Hailiang Huang, Jie Huang, Cynthia Sandor, Caleb Webber, Bertram Muller-Myhsok, Stefan Schreiber, Veikko Salomaa, Elizabeth Loehrer, Hartmut Göbel, Alfons Macaya, Patricia Pozo-Rosich, Thomas Hansen, Thomas Werge, Jaakko Kaprio, Andres Metspalu, Christian Kubisch, Michel D Ferrari, Andrea C Belin, Arn MJM van den Maagdenberg, John-Anker Zwart, Dorret Boomsma, N. Eriksson, Jes Olesen, Daniel I Chasman, Dale R Nyholt, Richard Anney, Andreja Avbersek, Larry Baum",
+            "abstract": "",
+            "citation": "<i>Science</i> 22 Jun 2018: Vol. 360, Issue 6395, eaap8757",
+            "summary": "Genetic sharing between 25 disorders of the brain",
+            "thumbnail": "shared_brain.png",
+            "links": [{"name": "Science", "url": "https://science.sciencemag.org/content/360/6395/eaap8757"}]
+        },
+
+        "2018.06.refractive": {
+            "category": ["genetics"],
+            "title": "Genome-wide association meta-analysis highlights light-induced signaling as a driver for refractive error",
+            "authors": "Milly S Tedja, Robert Wojciechowski, Pirro G Hysi, N. Eriksson, Nicholas A Furlotte, Virginie JM Verhoeven, Adriana I Iglesias, Magda A Meester-Smoor, Stuart W Tompson, Qiao Fan, Anthony P Khawaja, Ching-Yu Cheng, René Höhn, Kenji Yamashiro, Adam Wenocur, Clare Grazal, Toomas Haller, Andres Metspalu, Juho Wedenoja, Jost B Jonas, Ya Xing Wang, Jing Xie, Paul Mitchell, Paul J Foster, Barbara EK Klein, Ronald Klein, Andrew D Paterson, S Mohsen Hosseini, Rupal L Shah, Cathy Williams, Yik Ying Teo, Yih Chung Tham, Preeti Gupta, Wanting Zhao, Yuan Shi, Woei-Yuh Saw, E-Shyong Tai, Xue Ling Sim, Jennifer E Huffman, Ozren Polašek, Caroline Hayward, Goran Bencic, Igor Rudan, James F Wilson, Peter K Joshi, Akitaka Tsujikawa, Fumihiko Matsuda, Kristina N Whisenhunt, Tanja Zeller, Peter J van der Spek, Roxanna Haak, Hanne Meijers-Heijboer, Elisabeth M van Leeuwen, Sudha K Iyengar, Jonathan H Lass, Albert Hofman, Fernando Rivadeneira, André G Uitterlinden, Johannes R Vingerling, Terho Lehtimäki, Olli T Raitakari, Ginevra Biino, Maria Pina Concas, Tae-Hwi Schwantes-An, Robert P Igo, Gabriel Cuellar-Partida, Nicholas G Martin, Jamie E Craig, Puya Gharahkhani, Katie M Williams, Abhishek Nag, Jugnoo S Rahi, Phillippa M Cumberland, Cécile Delcourt, Céline Bellenguez, Janina S Ried, Arthur A Bergen, Thomas Meitinger, Christian Gieger, Tien Yin Wong, Alex W Hewitt, David A Mackey, Claire L Simpson, Norbert Pfeiffer, Olavi Pärssinen, Paul N Baird, Veronique Vitart, Najaf Amin, Cornelia M van Duijn, Joan E Bailey-Wilson, Terri L Young, Seang-Mei Saw, Dwight Stambolian, Stuart MacGregor, Jeremy A Guggenheim, Joyce Y Tung, Christopher J Hammond, Caroline CW Klaver",
+            "citation": "<i>Nat Genet.</i> 2018; 50, 834-–848",
+            "summary": "161 loci for refractive error in a multi-ethnic cohort",
+            "thumbnail": "light_pathways.png",
+            "links": [{"name": "PMC", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5980758/"},
+                {"name": "Nature Genetics", "url": "https://www.nature.com/articles/s41588-018-0127-7"}]
+        },
         "2018.05.mdd": {
             "category": ["genetics"],
             "title": "Genome-wide association analyses identify 44 risk variants and refine the genetic architecture of major depression",
