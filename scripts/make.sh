@@ -1,8 +1,8 @@
 #!/bin/bash
 
 set -e
-python build.py
-python build_cv.py
+python2 build.py
+python2 build_cv.py
 cd ../cv
 pdflatex cv.tex
 pdflatex cv.tex
