@@ -1,3 +1,5 @@
+Obsolete, see [this repo](https://github.com/nkeriks/nkeriks.github.io) instead.
+
 website
 =======
 
